@@ -19,7 +19,6 @@ library(bslib)
 library(ggplot2)
 library(dplyr)
 library(bsicons)
-library(shinylive)
 
 ui <- page_sidebar(
   title = "EPA Air Quality Dashboard",
