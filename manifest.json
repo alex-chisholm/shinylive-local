@@ -1,0 +1,3101 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.4.2",
+  "metadata": {
+    "appmode": "quarto-static",
+    "primary_rmd": "index.qmd",
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "quarto": {
+    "version": "1.7.10",
+    "engines": ["markdown"]
+  },
+  "packages": null,
+  "files": {
+    "_extensions/quarto-ext/shinylive/_extension.yml": {
+      "checksum": "9f2cddbc045da84e2f8ba82bcd02709d"
+    },
+    "_extensions/quarto-ext/shinylive/README.md": {
+      "checksum": "9de808d1d0cc8d978456d410d31cd405"
+    },
+    "_extensions/quarto-ext/shinylive/resources/css/shinylive-quarto.css": {
+      "checksum": "a66352fc1966c083966991ad27ed5800"
+    },
+    "_extensions/quarto-ext/shinylive/shinylive.lua": {
+      "checksum": "4b9a1639f5b03b582c80f7272fedca1b"
+    },
+    "index_files/libs/bootstrap/bootstrap-c0367b04c37547644fece4185067e4a7.min.css": {
+      "checksum": "c0367b04c37547644fece4185067e4a7"
+    },
+    "index_files/libs/bootstrap/bootstrap-icons.css": {
+      "checksum": "2318f137d201fbf51601fa0faba6bef7"
+    },
+    "index_files/libs/bootstrap/bootstrap-icons.woff": {
+      "checksum": "1a51dfbe5467607389d603c02a77cd10"
+    },
+    "index_files/libs/bootstrap/bootstrap.min.js": {
+      "checksum": "e2b09c06f0e714b6144a6788a28e3950"
+    },
+    "index_files/libs/clipboard/clipboard.min.js": {
+      "checksum": "15f52a1ee547f2bdd46e56747332ca2d"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive-sw.js": {
+      "checksum": "91385ac0faf01c29c38fab73bba9d083"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/browser-OYYBATHK.js": {
+      "checksum": "bd01b2dc4d81e19efd12916e62666395"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/browser-YJT5PK6V.js": {
+      "checksum": "28ee6a9b82141a566083aaa2fb3ceea6"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/chunk-O5P2LFOG.js": {
+      "checksum": "9e5a9602e7526ff41074958eeb0afe13"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/chunk-PHWSSKUM.js": {
+      "checksum": "9e2c04e3ce832f1bef86bdf82cc5f563"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/Editor.css": {
+      "checksum": "ac1198334af86cb000fe073c550bd74a"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/Editor.js": {
+      "checksum": "c8b2465c79ef2a63b7ccd5002c51934b"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/load-shinylive-sw.js": {
+      "checksum": "ef2a90c98a9716e0988b1a31bbfad2e9"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/lzstring-worker.js": {
+      "checksum": "5c9d533a54fae07d12252ec314fd0bc4"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/pyodide-worker.js": {
+      "checksum": "32ed2f512a3484fbe4ed801c5c9a9518"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/run-python-blocks.js": {
+      "checksum": "284bce30428215fc78b40e87d87751c9"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/shinylive.css": {
+      "checksum": "2191f7bef7b5af50ba71a7e7c8b099e6"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/shinylive.js": {
+      "checksum": "111617451cf5fa791943e2fd8be3523b"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/SourceSansPro-Regular.otf-PVQ5ZP77.woff2": {
+      "checksum": "0448fda3606e6dc571f763223e78861a"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/style-resets.css": {
+      "checksum": "326179a3af08325314a9f92ef53b7b20"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/esbuild.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/library.data.gz": {
+      "checksum": "3fd7111f335906871c37a3deaca4ddf0"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/library.js.metadata": {
+      "checksum": "22c3351a15690195ae61d17e0a1b851f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/libRblas.so": {
+      "checksum": "95d021b4cd5f74a6abbee092a2de30bc"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/libRlapack.so": {
+      "checksum": "2061ea193621976d961a0421ef431f56"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/colorspace/colorspace_2.1-1.tgz": {
+      "checksum": "2aa5bc40f0ca425c02fe089786bb0c6d"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/dplyr/dplyr_1.1.4.tgz": {
+      "checksum": "234970f116f17152c1ee859863f20770"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/fansi/fansi_1.0.6.tgz": {
+      "checksum": "79e638d445ce9ac1ffc3b095a22adba7"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/farver/farver_2.1.2.tgz": {
+      "checksum": "15206caf29b29518bf058972c157eb3c"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/generics/generics_0.1.3.tgz": {
+      "checksum": "7ea35b0a5c08bf06fe9d3a45add2be8f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/ggplot2/ggplot2_3.5.1.tgz": {
+      "checksum": "a59e149439539c0b239f8553f0ee71ec"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/gtable/gtable_0.3.5.tgz": {
+      "checksum": "fded0594a6fedae137e864deb7a2b73c"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/isoband/isoband_0.2.7.tgz": {
+      "checksum": "33c42644bdacd6c047cc096a6fc3534f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/labeling/labeling_0.4.3.tgz": {
+      "checksum": "c6b7cb041c84b93abf349cae31dbe731"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/lattice/lattice_0.22-6.tgz": {
+      "checksum": "97b967f6a6f85d1bbbc61ac0623cc526"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/MASS/MASS_7.3-61.tgz": {
+      "checksum": "e9e6fe7ebbe9371b17916c5e9c9460fa"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/Matrix/Matrix_1.7-0.tgz": {
+      "checksum": "fa462dcfd86abb3e7bf7d3289b902626"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/metadata.rds": {
+      "checksum": "d9e377778f45fefce5fbf01aa69cb579"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/mgcv/mgcv_1.9-1.tgz": {
+      "checksum": "e73c66e7e84c410b080a7e4d8f612696"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/munsell/munsell_0.5.1.tgz": {
+      "checksum": "ce2e6f7ae77683a364c37d23cd346d6d"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/nlme/nlme_3.1-166.tgz": {
+      "checksum": "e49518572b37c0ca2fa46e5b6f0c2425"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/pillar/pillar_1.9.0.tgz": {
+      "checksum": "0d88ca69b6305c8a5f66de5aee234df5"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/pkgconfig/pkgconfig_2.0.3.tgz": {
+      "checksum": "8ced9ddc8205b9302be9494462f2aaa2"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/RColorBrewer/RColorBrewer_1.1-3.tgz": {
+      "checksum": "07afe0eae5baabe6983d0b0a6d1b3327"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/scales/scales_1.3.0.tgz": {
+      "checksum": "484b04a0818c3df99a6b096687e9c564"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/tibble/tibble_3.2.1.tgz": {
+      "checksum": "f260889ac236343961aa5824c1d3b9ee"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/tidyselect/tidyselect_1.2.1.tgz": {
+      "checksum": "005e0028782975e3432424bc448f3bf6"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/utf8/utf8_1.2.4.tgz": {
+      "checksum": "6eb30bbf4142440deaa6d676f150f03e"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/vctrs/vctrs_0.6.5.tgz": {
+      "checksum": "7b6dc0410742c8ee27832b49bc5a3892"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/packages/viridisLite/viridisLite_0.4.2.tgz": {
+      "checksum": "d76da663236e1e334625a4a75e797e1a"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/R.bin.js": {
+      "checksum": "3f848b680dabe7729891d8e31fde39df"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/R.bin.js.bak": {
+      "checksum": "fb9b34092c91cbf78da454c851abd4ab"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/R.bin.wasm": {
+      "checksum": "65c0bb88e8bb52d4abd72d65d08c350a"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/repl/App.d.ts": {
+      "checksum": "6f52674a713dc1a91ec7ceb6661ae83f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/repl/components/Editor.d.ts": {
+      "checksum": "1600d80cccab2f3d43742373e9e605f3"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/repl/components/Files.d.ts": {
+      "checksum": "85184877fbba6a5cf7cdeac40f2698b1"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/repl/components/Plot.d.ts": {
+      "checksum": "132d88e78dac188518bfc3e9805e635d"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/repl/components/Terminal.d.ts": {
+      "checksum": "1848af6209f7312499f43197fdaf5ac7"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/repl/components/utils.d.ts": {
+      "checksum": "b9f9171cc64739ca15d789bbf6529271"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/tests/packages/webr.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/tests/webR/chan/channel-postmessage.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/tests/webR/console.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/tests/webR/error.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/tests/webR/mount.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/tests/webR/proxy.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/tests/webR/robj.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/tests/webR/utils.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/tests/webR/webr-main.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/tests/webR/webr-r.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/tests/webR/webr-worker.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/etc/fonts/fonts.conf": {
+      "checksum": "6300427804c4677462c2b187d9e2d3d3"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/doc.data.gz": {
+      "checksum": "189bf90daf482045c04d29c78fc3efa1"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/doc.js.metadata": {
+      "checksum": "a747595f2c53bcba0c57a0c1534499a3"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/demo.data.gz": {
+      "checksum": "079e9d73453dcd1ea1f860226498a417"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/demo.js.metadata": {
+      "checksum": "bf73c10ef38977281a0a823054ff08ab"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/help.data.gz": {
+      "checksum": "1e948c99be12b0befdc5715f6834a16f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/help.js.metadata": {
+      "checksum": "7821f4c7805e6a2fe5e91cb51dc090c4"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/html.data.gz": {
+      "checksum": "f425bcccc2d94280957d57180f9b2a59"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/html.js.metadata": {
+      "checksum": "7ba454753f5b85cac74f2b66b97c8247"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/help.data.gz": {
+      "checksum": "892f3f5a74e34a7b5005bea4ffa9893d"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/help.js.metadata": {
+      "checksum": "03fadda87f6131bf311bd0f99b3d2636"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/html.data.gz": {
+      "checksum": "bb156e5e7524e9ca72bc5aa0c7d30bc2"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/html.js.metadata": {
+      "checksum": "1af0681672853159028ccdbaecd4433d"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/tests.data.gz": {
+      "checksum": "51f97dcedd30c0e72f37adabedcf79d8"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/tests.js.metadata": {
+      "checksum": "1868ff2023f0a715f586b0b997323536"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/datasets/help.data.gz": {
+      "checksum": "6aac044f9f08247f662e0ed2d869196f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/datasets/help.js.metadata": {
+      "checksum": "216cc330dc992bbdbafe6d0fcfb71eec"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/datasets/html.data.gz": {
+      "checksum": "d2423df8ff4acc40625aa656441f9d22"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/datasets/html.js.metadata": {
+      "checksum": "710992e6c0e35f1fa2cb427caa7ddc33"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/demo.data.gz": {
+      "checksum": "a77fea69b2a3ac26c42a4bc5e53e4158"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/demo.js.metadata": {
+      "checksum": "641dd3b6e318c9bd7cd044a7a96735c9"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/help.data.gz": {
+      "checksum": "a0b8a84e305c9c6431f85b0d5d6423bb"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/help.js.metadata": {
+      "checksum": "fd3d6c396163ddef881566c315b0b91f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/html.data.gz": {
+      "checksum": "892c9f0de89ebacf39417aec1721c5a5"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/html.js.metadata": {
+      "checksum": "eaa7381c21f495d1e2a0d0b2a2a19a02"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/afm.data.gz": {
+      "checksum": "df161062d0d89fe9c8750b95603eb414"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/afm.js.metadata": {
+      "checksum": "9cba9a4535baef593b96eed0003bc03d"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/demo.data.gz": {
+      "checksum": "9dc9ce1b8e0be41a01d0c47665420b90"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/demo.js.metadata": {
+      "checksum": "8883d9a5770c131cd37e491a66d5f2d9"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/enc.data.gz": {
+      "checksum": "a6d8fe92dffe9e6b562e731189119253"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/enc.js.metadata": {
+      "checksum": "516864001be8080cb4e938bcfeb1366f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/fonts.data.gz": {
+      "checksum": "daa6e78e427d8ffceb3fb6852b7756b0"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/fonts.js.metadata": {
+      "checksum": "7b3727b93d155fd5770e87539d88fa45"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/help.data.gz": {
+      "checksum": "5fe1c4e943cca31575fb8d58558f672f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/help.js.metadata": {
+      "checksum": "c84d442aacf0391a80bf932f2cea4b17"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/html.data.gz": {
+      "checksum": "7b1d130c5132c7e6b694ba530113f749"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/html.js.metadata": {
+      "checksum": "a00fc1598449bf5fed1b8d1144911544"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/libs.data.gz": {
+      "checksum": "b6bee4ccc1199b69c68d861caeb4f0d3"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/libs.js.metadata": {
+      "checksum": "e441f909946d13ea1a9a290af577c64b"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/tests.data.gz": {
+      "checksum": "5291b3572f9586c9f4f19d3bb0886c32"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/tests.js.metadata": {
+      "checksum": "4f7ebfcae6fdfbf210bacfb13bf11ca6"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/doc.data.gz": {
+      "checksum": "2bd0664745ef82a32fec3a48443f51f8"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/doc.js.metadata": {
+      "checksum": "6b2e9947c2bdf1fab22b0d8c6fae1503"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/help.data.gz": {
+      "checksum": "3feb6f1df71b8c5a5ba4ae91ce380d67"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/help.js.metadata": {
+      "checksum": "734d1214108f1d703da68c5ee060d623"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/html.data.gz": {
+      "checksum": "f1e5c78d950f42b934035adf28ec04a1"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/html.js.metadata": {
+      "checksum": "b67fe52dc201a1bb07292047aba4fd77"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/tests.data.gz": {
+      "checksum": "df15969c564c2b8345c1c70847f47801"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/tests.js.metadata": {
+      "checksum": "08fe5a2551197285584345a51d8c2acf"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/help.data.gz": {
+      "checksum": "e65076512220527f7711ffa2981eba2e"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/help.js.metadata": {
+      "checksum": "2240c33147f18682592c6868194635f8"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/html.data.gz": {
+      "checksum": "e39b1c6e8a0a1f50815046f4e2fc916e"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/html.js.metadata": {
+      "checksum": "8f39d45134f44a72b97a909ad582543c"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/tests.data.gz": {
+      "checksum": "9285d6323510ab932c29a50768d5c921"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/tests.js.metadata": {
+      "checksum": "e8b3513f6be14ab96d6f1ae38d2edf15"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/parallel.data.gz": {
+      "checksum": "c9a5c9c835fb279ccacb099d4e99b291"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/parallel.js.metadata": {
+      "checksum": "18f67a0b32d58e57fb0fb3ca4269d5eb"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/help.data.gz": {
+      "checksum": "aa11e5368abe19cf238b8c2bfc31e3df"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/help.js.metadata": {
+      "checksum": "1785274cf08329875a1874aac92f7cf8"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/html.data.gz": {
+      "checksum": "609ff8b7f011f13778022d94fa6c2ff1"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/html.js.metadata": {
+      "checksum": "23de4b5bbae29ac86d2109caefa041da"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/tests.data.gz": {
+      "checksum": "ab09685305595a2e40acf3079b90750b"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/tests.js.metadata": {
+      "checksum": "a0c414570cc4738b41a96d5dfd654c25"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/demo.data.gz": {
+      "checksum": "c2583264c4a28cb8177917fe0cd49d7e"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/demo.js.metadata": {
+      "checksum": "84af5ae1632e5e6b4a99991e670c8664"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/help.data.gz": {
+      "checksum": "77fdf8728cdcc04d9d0158dbe812de34"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/help.js.metadata": {
+      "checksum": "396344b6b9eb2f33df4f306bb67e16e0"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/html.data.gz": {
+      "checksum": "d93193a37fac766915c5043690bc7c5a"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/html.js.metadata": {
+      "checksum": "c6d3e1209d8bb2346e4ccbaee02bb1f7"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/tests.data.gz": {
+      "checksum": "f4989f477b7fa6cfcfc9de9e11448a91"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/tests.js.metadata": {
+      "checksum": "9c2e24ce4bfddc081e54a338e201a9f5"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/help.data.gz": {
+      "checksum": "07575676825ac21e03a81110e0a0b1ea"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/help.js.metadata": {
+      "checksum": "0d6776e8af33b5c341739cfd73ae1f1d"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/html.data.gz": {
+      "checksum": "71b6b1202a6dec656914d0d258b48c3e"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/html.js.metadata": {
+      "checksum": "70df2ee502fe990362b1fba5174c96fd"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/tests.data.gz": {
+      "checksum": "c7f001b4ef53b5c7e67379dc0f0c659a"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/tests.js.metadata": {
+      "checksum": "73be0b9593e90df45b9c9a2aaf482944"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tcltk.data.gz": {
+      "checksum": "332db24b1aeae594172e76c773e8f7c8"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tcltk.js.metadata": {
+      "checksum": "4938018ba3b0408125c981b463559687"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/help.data.gz": {
+      "checksum": "07008792bfd607da56dc1e999b1f2ef4"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/help.js.metadata": {
+      "checksum": "662db5c182af2f5ec73a9ce034b630dd"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/html.data.gz": {
+      "checksum": "d48125a763a53c776c80ce9dc52fd07e"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/html.js.metadata": {
+      "checksum": "cb1fcd61384800f6946a8a4906147029"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/tests.data.gz": {
+      "checksum": "d777249e7345568df27e21c8725d495f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/tests.js.metadata": {
+      "checksum": "e4af7723e1ac91fd4806cb79170f5b29"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/translations.data.gz": {
+      "checksum": "965786e65d3832ede577a60cd62db45f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/translations.js.metadata": {
+      "checksum": "6129faae22842c1e952292bc648c969c"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION": {
+      "checksum": "8c74fc51c182b93b45d7c801202cb889"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/doc.data.gz": {
+      "checksum": "f5b7b9b59b10d25ab6c4e50e54c62c43"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/doc.js.metadata": {
+      "checksum": "f6447a41d69b94c4f927b3679a37f083"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/help.data.gz": {
+      "checksum": "e7fd6f7b1dcac046ecd5e4ddaa6a806b"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/help.js.metadata": {
+      "checksum": "3f8de1d5bc5e73e5a473c299fd6bb0f1"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/html.data.gz": {
+      "checksum": "3f98a63d008ffe03e0d86b12b302103d"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/html.js.metadata": {
+      "checksum": "64c759721282356f80bb4d9207345d83"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/misc.data.gz": {
+      "checksum": "ef83c5b22ee9c1ca2f7005fd8ecf3573"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/misc.js.metadata": {
+      "checksum": "231cffe9bf0512b4d9c176905a34b29a"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/tests.data.gz": {
+      "checksum": "841f327e5a68871acee4808794558805"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/tests.js.metadata": {
+      "checksum": "a7ad4b7ae6304dafa090f47ceca16654"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/webr/help.data.gz": {
+      "checksum": "e80faaaa1ff33aa0dc04c8d4382a8497"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/webr/help.js.metadata": {
+      "checksum": "4dce600d60577106591348a2bef788a3"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/webr/html.data.gz": {
+      "checksum": "2764ca8b9fd90daca2676fc3c5cce64c"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/webr/html.js.metadata": {
+      "checksum": "c0caed8b8a6aba675811429c0377791b"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/share.data.gz": {
+      "checksum": "dcf0d1622c26f86c04d467cf60850b74"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/share.js.metadata": {
+      "checksum": "880528e2b90aa47ff60af9b5eea3e3d7"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/tests.data.gz": {
+      "checksum": "d99a8113a290a49f3c47096fb0baf095"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/tests.js.metadata": {
+      "checksum": "24cd1ba3bb93e0aa2e56659ca4868c86"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSans-Bold.ttf": {
+      "checksum": "5959e861b45905afb3f5659b66e5a43b"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSans-BoldItalic.ttf": {
+      "checksum": "258746b7854392bcfd5531c3110674a1"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSans-Italic.ttf": {
+      "checksum": "b650143d06ff517e7482b6cbecb057b7"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSans-Regular.ttf": {
+      "checksum": "556ad26a9ff8afce0ea47896b298f4bf"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSansMono-Bold.ttf": {
+      "checksum": "e03f7c60925be06f6037ab22ceef6534"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSansMono-Regular.ttf": {
+      "checksum": "76bc9dee5de9d62cf1fff05a85b6d463"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Bold.ttf": {
+      "checksum": "ffdf273d3e86678a428bfe16de5793e5"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSerif-BoldItalic.ttf": {
+      "checksum": "0036797788d93b0f0cae86eec0040b1b"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Italic.ttf": {
+      "checksum": "4c488bfae3b56f7f85ddd8af6829accc"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Regular.ttf": {
+      "checksum": "788141e28255aec7da6d1f5444ddad4c"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/gdal.data.gz": {
+      "checksum": "27c43c9d7827dd67c6f388c8e830038c"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/gdal.js.metadata": {
+      "checksum": "40b6850183b35a195464ad6080f62917"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/proj.data.gz": {
+      "checksum": "834c143058be217e670c48ce1e77e206"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/proj.js.metadata": {
+      "checksum": "2e9339010891c4cb0323d7e6f667ff6b"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/udunits.data.gz": {
+      "checksum": "f8f64c29a93a151378929b6c882a7238"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/usr/share/udunits.js.metadata": {
+      "checksum": "6ee5406e67a645a811abd58df92bd11f"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le32d8.cache-7": {
+      "checksum": "51aeeb054a5fd6fe2fe2a8d7a932210b"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/vfs/var/cache/fontconfig/CACHEDIR.TAG": {
+      "checksum": "edad2301cde055e29b0d30b8d2f4b724"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webr-serviceworker.js": {
+      "checksum": "6876da0f1da4919269b12939fbf31674"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webr-serviceworker.js.map": {
+      "checksum": "a55aef60b46af74b1411d95d8ad4d6d6"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webr-serviceworker.mjs": {
+      "checksum": "6353b631c6f6b280eca93a4f41bd4d80"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webr-serviceworker.mjs.map": {
+      "checksum": "8ecb29b11c5f163ab392598321386c28"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webr-worker.js": {
+      "checksum": "240bb8f5a8f471bcb001321a70f1b689"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webr-worker.js.map": {
+      "checksum": "bd2f258304702c1299c294db28d6ebb1"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webr.cjs": {
+      "checksum": "0e48a22131473014da8d8f908c5239cf"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webr.cjs.map": {
+      "checksum": "5f127717f06f47da540986cf752ce4dc"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webr.mjs": {
+      "checksum": "f300831240837ff242f2e8ddfd691a40"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webr.mjs.map": {
+      "checksum": "e27293bf312150fc231ca6c7fd649591"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/chan/channel-common.d.ts": {
+      "checksum": "fec049491a432f1ccbf3ce024bba3baa"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/chan/channel-postmessage.d.ts": {
+      "checksum": "c6a8f78fab628134b7180ff5e59a4f64"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/chan/channel-service.d.ts": {
+      "checksum": "6b35591f5de7e812bf9227d55a8b35e4"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/chan/channel-shared.d.ts": {
+      "checksum": "e56a605f994592473e1c84ec5f58800c"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/chan/channel.d.ts": {
+      "checksum": "ae565b837db4ae87ba2152b9d961eb22"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/chan/message.d.ts": {
+      "checksum": "7705b5d065fc7c9ec24c5906bcb3e1e9"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/chan/queue.d.ts": {
+      "checksum": "88820d2b2237896b22d15da0bb8246ea"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/chan/serviceworker.d.ts": {
+      "checksum": "6d929e5cd8ad392cfa10734d88c25d67"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/chan/task-common.d.ts": {
+      "checksum": "5bec41a29d2b750b509fcc4f8a1ed1e0"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/chan/task-main.d.ts": {
+      "checksum": "f6f605da203f29469a5b4d38b2c0bcce"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/chan/task-worker.d.ts": {
+      "checksum": "cf6b12ffd3797cb9303bbd190351eb4b"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/compat.d.ts": {
+      "checksum": "33eda8bd4455ab1b10c7e580db558f45"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/config.d.ts": {
+      "checksum": "1b90f65c821aed4f4b94346b627b8f61"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/console.d.ts": {
+      "checksum": "591c23a125e11dcf3dd2e959cfdc06b9"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/emscripten.d.ts": {
+      "checksum": "53e2792c2840ac195fcddc418a1e92cf"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/error.d.ts": {
+      "checksum": "f6ab6e58de6eb63a7d7b16aaa48be714"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/mount.d.ts": {
+      "checksum": "38d8db9f3e2f2af9e5826efbfa1e7762"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/payload.d.ts": {
+      "checksum": "eb9cd4d5c9df6f2a1a9b20e70e06aa35"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/proxy.d.ts": {
+      "checksum": "60050c04a4a7bef595d0b8fe6477ca36"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/robj-main.d.ts": {
+      "checksum": "d01b9ab014e5b5d44f1b52bf6ab177e0"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/robj-worker.d.ts": {
+      "checksum": "6df4a4fa57fa272f661e797033c6f458"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/robj.d.ts": {
+      "checksum": "36b1c032d91beb66132e8e21fc21865c"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/utils-r.d.ts": {
+      "checksum": "8dd57576c21644349c45e562ce9f1f4a"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/utils.d.ts": {
+      "checksum": "261bb1e9718c734a460306deb79329b9"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/webr-chan.d.ts": {
+      "checksum": "683480399ea03890693829db6ee60495"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/webr-main.d.ts": {
+      "checksum": "625d6530fe95580137a5814132436ec2"
+    },
+    "index_files/libs/quarto-contrib/shinylive-0.9.1/shinylive/webr/webR/webr-worker.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "index_files/libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css": {
+      "checksum": "a66352fc1966c083966991ad27ed5800"
+    },
+    "index_files/libs/quarto-html/anchor.min.js": {
+      "checksum": "91bcf6cd1fd88fec3f109811e5fc3546"
+    },
+    "index_files/libs/quarto-html/popper.min.js": {
+      "checksum": "3a4a291ccf3f1ea0f82b641542fd3827"
+    },
+    "index_files/libs/quarto-html/quarto-syntax-highlighting-0f20262f3ac6b624a8f572cb0795ac9a.css": {
+      "checksum": "0f20262f3ac6b624a8f572cb0795ac9a"
+    },
+    "index_files/libs/quarto-html/quarto.js": {
+      "checksum": "7768b1444205554936ae548b511f4619"
+    },
+    "index_files/libs/quarto-html/tabsets/tabsets.js": {
+      "checksum": "e8d6a8862b33ccc461f8fd532e05b365"
+    },
+    "index_files/libs/quarto-html/tippy.css": {
+      "checksum": "ebd6f8ce46a677e1a4f5f8a8317109a9"
+    },
+    "index_files/libs/quarto-html/tippy.umd.min.js": {
+      "checksum": "d828775275749701b48bd9d958814111"
+    },
+    "index.html": {
+      "checksum": "1dbaef6f1951649d5b137238133138e9"
+    },
+    "index.qmd": {
+      "checksum": "2e26eba7c461974f05dc821e8ab29508"
+    },
+    "shinylive_assets/shinylive-0.9.1/export_template/edit/index.html": {
+      "checksum": "4752dc2dd0b23ac5bd1bbb14f7ace61e"
+    },
+    "shinylive_assets/shinylive-0.9.1/export_template/index.html": {
+      "checksum": "99f37ed3320ae94c16d99d6980e9659c"
+    },
+    "shinylive_assets/shinylive-0.9.1/scripts/codeblock-to-json.js": {
+      "checksum": "5690396079836949aeb7aedd2eedfc5d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive-sw.js": {
+      "checksum": "91385ac0faf01c29c38fab73bba9d083"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/browser-OYYBATHK.js": {
+      "checksum": "bd01b2dc4d81e19efd12916e62666395"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/browser-YJT5PK6V.js": {
+      "checksum": "28ee6a9b82141a566083aaa2fb3ceea6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/chunk-O5P2LFOG.js": {
+      "checksum": "9e5a9602e7526ff41074958eeb0afe13"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/chunk-PHWSSKUM.js": {
+      "checksum": "9e2c04e3ce832f1bef86bdf82cc5f563"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/Editor.css": {
+      "checksum": "ac1198334af86cb000fe073c550bd74a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/Editor.js": {
+      "checksum": "c8b2465c79ef2a63b7ccd5002c51934b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/examples.json": {
+      "checksum": "b167f7d1a5b42689f4ef962875a1f5a9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/load-shinylive-sw.js": {
+      "checksum": "ef2a90c98a9716e0988b1a31bbfad2e9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/lzstring-worker.js": {
+      "checksum": "5c9d533a54fae07d12252ec314fd0bc4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide-worker.js": {
+      "checksum": "32ed2f512a3484fbe4ed801c5c9a9518"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/aiohttp-3.9.5-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "c1aeccf2619112a61512463069bddcf2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/aiohttp-3.9.5-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "0d896ceb2ee9d4f2d3670d9c13ba1b10"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/aiosignal-1.3.1-py3-none-any.whl": {
+      "checksum": "6c6d519391937b6232f26dcaf3bf7217"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/aiosignal-1.3.1-py3-none-any.whl.metadata": {
+      "checksum": "2e74fae483ad8bda4d11bd5eab1d7911"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/altair-5.3.0-py3-none-any.whl": {
+      "checksum": "b4744ae903a29419eb0c341bad080580"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/altair-5.3.0-py3-none-any.whl.metadata": {
+      "checksum": "39a910c2fdf1a60c03417fe79e3c9d33"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/annotated_types-0.6.0-py3-none-any.whl": {
+      "checksum": "95d4da4804373a4d42c94ddfb6055b48"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/annotated_types-0.6.0-py3-none-any.whl.metadata": {
+      "checksum": "a9abf6347e79902fc96a553825a67acc"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/anyio-4.4.0-py3-none-any.whl": {
+      "checksum": "9188b782e810cc427518e96bfa6f1a49"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/appdirs-1.4.4-py2.py3-none-any.whl": {
+      "checksum": "1d638a5913a8d8ed8e7c7d789ece149c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/asciitree-0.3.3-py3-none-any.whl": {
+      "checksum": "c06f0003de286a913320c21a1153bb30"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/asciitree-0.3.3-py3-none-any.whl.metadata": {
+      "checksum": "59b0f2422473a2c44fca09dedeb5596b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/asgiref-3.8.1-py3-none-any.whl": {
+      "checksum": "87ef2494bf2bb208cd3652e577c74bc9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/astropy_iers_data-0.2024.4.22.0.29.50-py3-none-any.whl": {
+      "checksum": "10fdfac2420eb5e440211e30b4d92044"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/astropy_iers_data-0.2024.4.22.0.29.50-py3-none-any.whl.metadata": {
+      "checksum": "0c22b46cb43be002558c1765eebbcff4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/astropy-6.0.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "1cbd8e113697b5ca8567fb46de4f3653"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/astropy-6.0.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "6627c8b3f45deb440c583d85502973cd"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/asttokens-2.4.1-py2.py3-none-any.whl": {
+      "checksum": "47413e8138fbcac9e5991251c256a448"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/asttokens-2.4.1-py2.py3-none-any.whl.metadata": {
+      "checksum": "9fc63432a74c936488fe90987d5af0d5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/async_timeout-4.0.3-py3-none-any.whl": {
+      "checksum": "13c4e470c6ffe531d4ffc8f018baf056"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/async_timeout-4.0.3-py3-none-any.whl.metadata": {
+      "checksum": "32780170d0a5a4b2d11d8903f2f8bdb1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/atomicwrites-1.4.1-py2.py3-none-any.whl": {
+      "checksum": "24052556049955babf38e7386615d372"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/atomicwrites-1.4.1-py2.py3-none-any.whl.metadata": {
+      "checksum": "675d234fe037a371ac626562e3664b63"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/attrs-23.2.0-py3-none-any.whl": {
+      "checksum": "abd22e84508080e2730a4acfef6b86f4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/attrs-23.2.0-py3-none-any.whl.metadata": {
+      "checksum": "e32d387a89f0114b8f9b9a809905299d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/autograd-1.6.2-py3-none-any.whl": {
+      "checksum": "9ec0c4d138193b2a7c4de26bf47b475a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/autograd-1.6.2-py3-none-any.whl.metadata": {
+      "checksum": "a44f767906ce8fb1637aa86336614ebb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/awkward_cpp-33-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "29879b484ff8fd4e4292015f5a1c1a3f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/awkward_cpp-33-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "706ecd6d26d3fd532c7240f982ed84ec"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/b2d-0.7.4-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "f53ecb4e20a4728bf0769ce0eabfcd5b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/b2d-0.7.4-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "77ab7117de15b0ce0fb8b7d9ce24af18"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/bcrypt-4.1.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "c9952c3e19e2fdd9cab7f36e12f2efd6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/bcrypt-4.1.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "85af784952177f96360f955e7e40a604"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/beautifulsoup4-4.12.3-py3-none-any.whl": {
+      "checksum": "97dab711bb4f5e9d35b2b295ad67b4a9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/beautifulsoup4-4.12.3-py3-none-any.whl.metadata": {
+      "checksum": "3c9c22f3481da0ecc5a2af188cd48e20"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/biopython-1.83-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "c35aa09e1318781b7a01d3aed5a1a710"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/biopython-1.83-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "613b4b9a2df0fb5c6f8976102217ce64"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/bitarray-2.9.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "612041fc0ebe800b9c809ab8a11e625c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/bitarray-2.9.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "4c293bd132c4d92027a857ff498ef072"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/bitstring-4.1.4-py3-none-any.whl": {
+      "checksum": "85e288ea137ab0d9260cc0eb652fabde"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/bitstring-4.1.4-py3-none-any.whl.metadata": {
+      "checksum": "4170ba78cea00ee0da0a737a6e224e74"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/black-24.8.0-py3-none-any.whl": {
+      "checksum": "59907440de926854661707af1eee30bb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/bleach-6.1.0-py3-none-any.whl": {
+      "checksum": "d6d526191b9e9bf02038447020d2d465"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/bleach-6.1.0-py3-none-any.whl.metadata": {
+      "checksum": "c999b3c6c95cff19db63c12e16bfbc5d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/bokeh-3.4.1-py3-none-any.whl": {
+      "checksum": "2bd0a8f8b559d337e129d2803aaaac54"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/bokeh-3.4.1-py3-none-any.whl.metadata": {
+      "checksum": "77c3c865387a89b74af116792a0befc0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/boost_histogram-1.4.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "bf797ea7e6de13ff620de547cf597f75"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/boost_histogram-1.4.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "0cfb8d22fe3cecdecea8a52d03be1725"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/branca-0.7.2-py3-none-any.whl": {
+      "checksum": "bd506f771bddaa6998d3ca3b1ceb8dc7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/Brotli-1.1.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "01112b70faac44505dc137a0c51bf34d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/Brotli-1.1.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "77356077997d31d7b6d2709ef30c8161"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/buffer_test-0.1.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "2d1e32cc45e31b68c0cb23482d558c4a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/buffer_test-0.1.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "bac2465c06e3d1e0d8c27feb48302628"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cachetools-5.3.3-py3-none-any.whl": {
+      "checksum": "73138d1c497e5f56c2ef90d830b5d309"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cachetools-5.3.3-py3-none-any.whl.metadata": {
+      "checksum": "a0c65eb58ecd2f0f809bfff32b62ac2b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/Cartopy-0.23.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "cb024ee3570c71be9acaf05af00371ba"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/Cartopy-0.23.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "eabe7950938abbd87b24d6741a95d118"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cbor_diag-1.0.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "a71f29ebcf11a273712bcb0a53d3bf8d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cbor_diag-1.0.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "0cc1b9ca41af32271f83c32ea100e6fe"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/certifi-2024.2.2-py3-none-any.whl": {
+      "checksum": "193c4887b891470c779207d3881e5cea"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/certifi-2024.2.2-py3-none-any.whl.metadata": {
+      "checksum": "7d2d5143cec7b524ae326ae6c76bca94"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cffi_example-0.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "7028f21ef9e4d4dfa82f546e4f2961a2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cffi_example-0.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "e143fd5df0e17530b6b10239cbb91a36"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cffi-1.16.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "76bef96ba031b7e325eb58e5462a78dc"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cffi-1.16.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "2b4a69c2c5594b6985773f8813c399a0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cftime-1.6.3-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "7032a8101cdd339d6dab9a0bffe4e055"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cftime-1.6.3-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "afef878b527e89b8b89397a15f2b8b8e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/charset_normalizer-3.3.2-py3-none-any.whl": {
+      "checksum": "f5b7d6acf13ae5e4d3445860d9edb590"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/charset_normalizer-3.3.2-py3-none-any.whl.metadata": {
+      "checksum": "edd7d81496c4208c6468e1d543cbcf8f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/clarabel-0.7.1-cp37-abi3-pyodide_2024_0_wasm32.whl": {
+      "checksum": "ab9379b249f62e48100587d0a428d5d9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/clarabel-0.7.1-cp37-abi3-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "0ade7ebeb70ec7d99f6b5808595c8ca9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/click-8.1.7-py3-none-any.whl": {
+      "checksum": "db82b653f20c360e5ee7284b998d3e54"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/click-8.1.7-py3-none-any.whl.metadata": {
+      "checksum": "b04678abf0fc064ac82589d4394f3fbb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cligj-0.7.2-py3-none-any.whl": {
+      "checksum": "17bea940566bb87d6e158f9b419646f5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cligj-0.7.2-py3-none-any.whl.metadata": {
+      "checksum": "7bbabe835fd84550ceb5d152ef79bd4d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cloudpickle-3.0.0-py3-none-any.whl": {
+      "checksum": "cc50de7a5e6aea3a031ebc7224517b85"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cloudpickle-3.0.0-py3-none-any.whl.metadata": {
+      "checksum": "c874d59bf45a89bd3bfb4c99cc97574c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cmyt-2.0.0-py3-none-any.whl": {
+      "checksum": "154e1e95e3276a408b41a53c57092959"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cmyt-2.0.0-py3-none-any.whl.metadata": {
+      "checksum": "7e6cd39d7a6ddd593f74bc984770a836"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/colorspacious-1.1.2-py2.py3-none-any.whl": {
+      "checksum": "ef76117f37a96e83b5b8c43629417b83"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/colorspacious-1.1.2-py2.py3-none-any.whl.metadata": {
+      "checksum": "4e9cdc3dfa0466e709fdae6e9dcc7f23"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/comm-0.2.2-py3-none-any.whl": {
+      "checksum": "8b190bc2bbb5216c9baeee6784edc498"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/console.html": {
+      "checksum": "872dba77b74ba77b87fdae38a6dd73b0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/contourpy-1.2.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "6ad6ce668f29bfaf1cff585d5620a3d5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/contourpy-1.2.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "85fc5221d8ae89feb5a4cd4ee574fb9c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/CoolProp-6.6.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "8a89c41ffec46fe51e374e31874dfe5b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/CoolProp-6.6.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "c20ad790743bcf7231f4d48161d015db"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/coverage-7.4.4-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "181f5166b474c21ffc81199df50144b0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/coverage-7.4.4-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "9f77707f2c8261428749de2b744ac641"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cpp_exceptions_test2-1.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "b4237ea5afb44197d11a72ff2cc8c6c8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cpp_exceptions_test2-1.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "58859b6e5e248c8db9a135a6115303a1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cpp-exceptions-test-0.1.zip": {
+      "checksum": "a34ba7d859e541cedff5560b4ec63655"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cramjam-2.8.3-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "cad52d219769ba56f713ceef620c3d85"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cramjam-2.8.3-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "0c0bdfce06a1a62bda53ae58c484a8bb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/crc32c-2.4-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "310bba7a815579e7e0b321f2f831fd49"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/crc32c-2.4-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "74352d93dcda829102ed809349a68aa7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cryptography-42.0.5-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "c431e092efb6f97a06a37ef98e0b1af4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cryptography-42.0.5-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "7408d8336343a870f688389decf88be1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cssselect-1.2.0-py2.py3-none-any.whl": {
+      "checksum": "bd5e9572f799b224cd1aabeb4ec27623"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cssselect-1.2.0-py2.py3-none-any.whl.metadata": {
+      "checksum": "e9322fcd850a54f800d4670f70225d2b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cvxpy_base-1.5.1-py3-none-any.whl": {
+      "checksum": "57b4674c1b850e6509b88358acb00f85"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cvxpy_base-1.5.1-py3-none-any.whl.metadata": {
+      "checksum": "922c226275e2ec12d784f513e456beb6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cycler-0.12.1-py3-none-any.whl": {
+      "checksum": "3dc86e8126adb75866af89d9de03bfbc"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cycler-0.12.1-py3-none-any.whl.metadata": {
+      "checksum": "8b02dcd7cd864ffd7885f9a6cc4a611b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cysignals-1.11.4-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "cfce869cae8a6e8e48132dfa6f6029a9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cysignals-1.11.4-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "a70ce876ed87f801900e5b8241d9046c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cytoolz-0.12.3-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "29147eb266e616b8dae2f0ba6d3d4fd7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/cytoolz-0.12.3-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "1d28062cf812563f99fbee206b24f2f3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/decorator-5.1.1-py3-none-any.whl": {
+      "checksum": "669748d1ef334ce763c95a402b66695d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/decorator-5.1.1-py3-none-any.whl.metadata": {
+      "checksum": "fd74f6c87dac18ce392e17ce156cb303"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/demes-0.2.3-py3-none-any.whl": {
+      "checksum": "f9e0c5aa039007ab256753978dea6f3d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/demes-0.2.3-py3-none-any.whl.metadata": {
+      "checksum": "6239b6f321af870a943ddf8d077159a2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/deprecation-2.1.0-py2.py3-none-any.whl": {
+      "checksum": "bf490666689032e751ad20120eb01b0f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/deprecation-2.1.0-py2.py3-none-any.whl.metadata": {
+      "checksum": "c1d857aa08e542561929ac3da69d082a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/distlib-0.3.8-py2.py3-none-any.whl": {
+      "checksum": "e1364e05154943ccc9136a9491f45a9a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/distlib-0.3.8-py2.py3-none-any.whl.metadata": {
+      "checksum": "f4589ff353963d88c2773f32cbc9be66"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/docutils-0.21.1-py3-none-any.whl": {
+      "checksum": "e2e78a2bcc0da23b1a8720c70cae8b67"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/docutils-0.21.1-py3-none-any.whl.metadata": {
+      "checksum": "44a177f47594d4482f9c874ef1d0bb68"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/duckdb-1.0.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "25f7ddff7450be2aff901b7c16b86ec3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/duckdb-1.0.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "90338160cae6ac73f7de3e624640f84b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/ewah_bool_utils-1.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "8c02c2e0492eb89dc019d97a368fea3a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/ewah_bool_utils-1.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "42b0fa9955d7eaba6cc37e0ece7cead8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/exceptiongroup-1.2.1-py3-none-any.whl": {
+      "checksum": "7daea3816da8d34f40d208960a56abde"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/exceptiongroup-1.2.1-py3-none-any.whl.metadata": {
+      "checksum": "66765f088f478a9068715b9d49a20646"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/executing-2.0.1-py2.py3-none-any.whl": {
+      "checksum": "47a5e1ad3845272c55302507c521258a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/executing-2.0.1-py2.py3-none-any.whl.metadata": {
+      "checksum": "2f362e89d9f53c5654ab515936e2e2de"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/faicons-0.2.2-py3-none-any.whl": {
+      "checksum": "1ad711b5d7cf30217f9a49febad81b69"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fastparquet-2024.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "b6f37281efb8eb16b2b417b5a5e761b6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fastparquet-2024.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "6689b9e978327e87e6a115e088ef71d4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/ffi.d.ts": {
+      "checksum": "545b4feaf7705076fe91fb98380a1e5f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fiona-1.9.5-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "907169b93d259293a9d8a00f9aa7e146"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fiona-1.9.5-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "20018c753c229252b0a3790fa36a98e7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/cmb10.ttf": {
+      "checksum": "1f44c7e3cbc036caf35dfe52ab15c623"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/cmex10.ttf": {
+      "checksum": "c89254bbab0ffa4f3b5dcc2b0e49af3f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/cmmi10.ttf": {
+      "checksum": "6832340b658d41af916e50effb7fccb3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/cmr10.ttf": {
+      "checksum": "9b4726982be9203f0115dce99194d05b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/cmss10.ttf": {
+      "checksum": "8a2e48e4ef7dde27d2ca16aa7fd5f886"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/cmsy10.ttf": {
+      "checksum": "a431de4cc35c47d0aa266f258786023c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/cmtt10.ttf": {
+      "checksum": "3f2855b59abf14eac749d6c4f5d2b76d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSans-Bold.ttf": {
+      "checksum": "21546d802d508f3d358082d85bc0d9f1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSans-BoldOblique.ttf": {
+      "checksum": "e5947ee873600dd1cae20e30cf80ee68"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSans-Oblique.ttf": {
+      "checksum": "8723fc16d3649200d6179f391dd43f9f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSans.ttf": {
+      "checksum": "49c0f03ec2fa354df7002bcb6331e106"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSansDisplay.ttf": {
+      "checksum": "db692f188fda59844a1c2f7adc665a1a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSansMono-Bold.ttf": {
+      "checksum": "fb4ec87d51ddbe7c5d2f9e8f09d7e39f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSansMono-BoldOblique.ttf": {
+      "checksum": "ca84e5775e93e87fbedadbd01dcd971f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSansMono-Oblique.ttf": {
+      "checksum": "a6927e438ac0588663bf935ec83844e2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSansMono.ttf": {
+      "checksum": "f7435b1a6cda778779e08965547ece79"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSerif-Bold.ttf": {
+      "checksum": "25670b4ac8dafec3250bb4f571e43def"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSerif-BoldItalic.ttf": {
+      "checksum": "42a9a4e0c7d560aa678f90e4b696db41"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSerif-Italic.ttf": {
+      "checksum": "08f58f7678b545de5960f4ed80d37158"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSerif.ttf": {
+      "checksum": "a4108b7cc2a534ec2c136a6db29ab571"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/DejaVuSerifDisplay.ttf": {
+      "checksum": "24a603f5bd7e125a51e3d1f79c2ad819"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/Humor-Sans.ttf": {
+      "checksum": "acdc29df52454684fe8f3184f6477290"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/LICENSE_DEJAVU": {
+      "checksum": "9f867da7a73fad2715291348e80d0763"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/LICENSE_STIX": {
+      "checksum": "ed5ffbed3a27a5d094e0484879020376"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXGeneral.ttf": {
+      "checksum": "63d07de6dee70d88cab991e14863386e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXGeneralBol.ttf": {
+      "checksum": "2de28b7e74b0b05f906a641f5637a6b1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXGeneralBolIta.ttf": {
+      "checksum": "e18c3b926ad2237963e2c3fd3ea5ad64"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXGeneralItalic.ttf": {
+      "checksum": "716f3ded7a66bdaf5c28358caeb151eb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXNonUni.ttf": {
+      "checksum": "b61b27dc81fd44caa1ffe28a94701d97"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXNonUniBol.ttf": {
+      "checksum": "052f770728b1569ebdbf47b6bc3647a7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXNonUniBolIta.ttf": {
+      "checksum": "071b361d750b4dbda5484d085a47b65b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXNonUniIta.ttf": {
+      "checksum": "40a267cac50f63f84aaec1b2c89d5f8e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXSizFiveSymReg.ttf": {
+      "checksum": "9875e42f7bf6c1b4551afcfe2c5971c7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXSizFourSymBol.ttf": {
+      "checksum": "47cbad248ef5245ad61bb941042650d0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXSizFourSymReg.ttf": {
+      "checksum": "1c3062fdb71c4e60223681f9cc2240f8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXSizOneSymBol.ttf": {
+      "checksum": "60d6ceb076b1e7a913223ddf03eca0e8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXSizOneSymReg.ttf": {
+      "checksum": "7a2780b1cbdc08fbb864d6b733f9aced"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXSizThreeSymBol.ttf": {
+      "checksum": "393b14459c3634c69c002f9829279411"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXSizThreeSymReg.ttf": {
+      "checksum": "f0bd6569df1bb226fc9ce4468a433d72"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXSizTwoSymBol.ttf": {
+      "checksum": "d7ab1f6be94f4dc7dbe13bf6a2b0a41a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonts/STIXSizTwoSymReg.ttf": {
+      "checksum": "6e6e354d5d7e77a29b7fc557a010721c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonttools-4.51.0-py3-none-any.whl": {
+      "checksum": "1eca7316100a2e8b2087c5242d41262f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fonttools-4.51.0-py3-none-any.whl.metadata": {
+      "checksum": "03e3a475f7da3f951847b73f1e5c9080"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fpcast_test-0.1.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "739f57f30fb418b074e0943cc7bbab5b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fpcast_test-0.1.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "184bf262d6b0d1d238efebc59ac56222"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/freesasa-2.2.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "b546c690abff8fdec134f505cc34bad8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/freesasa-2.2.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "f75c762985d49cb08e6695083f7ddb24"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/frozenlist-1.4.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "809405911670a12e547ac84a33e23100"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/frozenlist-1.4.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "3a2102a09536d9738df2f1142ec87c81"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fsspec-2024.3.1-py3-none-any.whl": {
+      "checksum": "4a1e5dd65e8892e8b8cbd812f78dfda8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/fsspec-2024.3.1-py3-none-any.whl.metadata": {
+      "checksum": "18011a41bea40843112ffd23a3081873"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/future-1.0.0-py3-none-any.whl": {
+      "checksum": "dfebbdd46d26b14eefd0db11423b7ec3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/future-1.0.0-py3-none-any.whl.metadata": {
+      "checksum": "0a316777f0d939f6c978bbc47916066d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/galpy-1.9.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "4e8e7592ba615d60b39e45e532e62833"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/galpy-1.9.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "1ef94c87a55a0b9aa7c2c7efc90c586d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/gdal-3.8.3.zip": {
+      "checksum": "12edf0cd644caa83926c51b4deaf5acf"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/gensim-4.3.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "b1b6fb5ab77f3b6d4dcb71a2e3a0e6a6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/gensim-4.3.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "e58651bf00c041aff2242d0f6dd28ec5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/geopandas-0.14.3-py3-none-any.whl": {
+      "checksum": "627b890a321dc59b95dfbe6fc054b2fb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/geopandas-0.14.3-py3-none-any.whl.metadata": {
+      "checksum": "d571f660dceb751c6d0439690a4a4c50"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/geos-3.12.1.zip": {
+      "checksum": "0729c32e531935cf77a8575ff25e0468"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/gmpy2-2.1.5-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "0989408ca4cb635b337663e2dc084e2c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/gmpy2-2.1.5-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "e4775682dfb9b43c29e74cc0870b43c0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/gsw-3.6.17-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "1bbe072a8b8efd26fd1b64837db348e3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/gsw-3.6.17-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "2ac53f589c29948ab913715cd28cce86"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/h5py-3.11.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "deb6983a902f7906e2f4debe461c616d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/h5py-3.11.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "426908c11b70438e86583c619f880635"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/hashlib-1.0.0.zip": {
+      "checksum": "cdc4be30959c96012168d25115852b61"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/html5lib-1.1-py2.py3-none-any.whl": {
+      "checksum": "505e8ff093e2f43ad29926c4b4afca8f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/html5lib-1.1-py2.py3-none-any.whl.metadata": {
+      "checksum": "89639eec5345482f8507f341cbfbc36d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/htmltools-0.6.0-py3-none-any.whl": {
+      "checksum": "b1a08d5f87d174d8d17f24bd03ea5caa"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/idna-3.7-py3-none-any.whl": {
+      "checksum": "8747206ec625581aaaa3893b80a198f7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/idna-3.7-py3-none-any.whl.metadata": {
+      "checksum": "f326c32533bdd9789bf5e46fa82edee0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/igraph-0.11.4-cp39-abi3-pyodide_2024_0_wasm32.whl": {
+      "checksum": "8ff90087023cb7364cc4eda693201151"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/igraph-0.11.4-cp39-abi3-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "a496d55ecfc4c707be32bb80bf8ecb41"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/imageio-2.34.1-py3-none-any.whl": {
+      "checksum": "296daf801eb01bf6bf2c6abb5d0752a1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/imageio-2.34.1-py3-none-any.whl.metadata": {
+      "checksum": "929e1f058b9656fa83b221c7563a1d47"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/iniconfig-2.0.0-py3-none-any.whl": {
+      "checksum": "99f5b0c95810d8eab48fa6734bbd2e42"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/iniconfig-2.0.0-py3-none-any.whl.metadata": {
+      "checksum": "a9274940bfda09d382dab7da781240f2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/ipyleaflet-0.19.2-py3-none-any.whl": {
+      "checksum": "7899f8fcfcd0c34ef67bbef902e49c75"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/ipython-8.23.0-py3-none-any.whl": {
+      "checksum": "4a6ceb7824ad462f50f89ca1efda9aa7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/ipython-8.23.0-py3-none-any.whl.metadata": {
+      "checksum": "e944cfdfad22f8b320658ede9c05e3f5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/ipywidgets-8.1.3-py3-none-any.whl": {
+      "checksum": "fb8cebec0f1a8f1cac1bfbe17fa54405"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/jedi-0.19.1-py2.py3-none-any.whl": {
+      "checksum": "7eb1c81fc71a4a8e8c83d744cb3d4353"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/jedi-0.19.1-py2.py3-none-any.whl.metadata": {
+      "checksum": "f0e00a81c3238fa5c5776258bac98b06"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/Jinja2-3.1.3-py3-none-any.whl": {
+      "checksum": "8878e88c91b33c8ba8976698a4d18627"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/Jinja2-3.1.3-py3-none-any.whl.metadata": {
+      "checksum": "8ea1f9ec1f960af81ab9d7279235a761"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/joblib-1.4.0-py3-none-any.whl": {
+      "checksum": "f359bef64eb07efd56a73e225e54368e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/joblib-1.4.0-py3-none-any.whl.metadata": {
+      "checksum": "9a2651ca2e648e84f8cf7246c61a5376"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/jsonschema_specifications-2023.12.1-py3-none-any.whl": {
+      "checksum": "419f53427744526360fa852c63b9699c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata": {
+      "checksum": "6d8e7aee366a18a5c58cb529590163a5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/jsonschema-4.21.1-py3-none-any.whl": {
+      "checksum": "390ee29ce27f6e2395dae770affe3328"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/jsonschema-4.21.1-py3-none-any.whl.metadata": {
+      "checksum": "2c0541fde7e0e89434840c65149ade2d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/jupyter_core-5.7.2-py3-none-any.whl": {
+      "checksum": "8980f44e273bf2aa6005e629dfd80da1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/jupyter_leaflet-0.19.2-py3-none-any.whl": {
+      "checksum": "dc4258092f4c657392f0dda6e4c9ac40"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/jupyterlab_widgets-3.0.11-py3-none-any.whl": {
+      "checksum": "af3c8da9ece8be5fb5e10c4e40f126c1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/kiwisolver-1.4.5-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "447826a2064eb1d41117577f92ef9859"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/kiwisolver-1.4.5-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "7a44e3c32d2d63076c4f1a7cef5bd1e7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/lakers_python-0.3.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "84cda2937deea3aa5ea2a995f8df1014"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/lakers_python-0.3.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "9eac21d394fed2a67b82bb341728aea0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/lazy_loader-0.4-py3-none-any.whl": {
+      "checksum": "e019b6b934e502c5202fa5cd403d915c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/lazy_loader-0.4-py3-none-any.whl.metadata": {
+      "checksum": "a0df64c090438ff9de5451228d819163"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/lazy_object_proxy-1.10.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "e4bfa52493e04344a6e1e2f52b1a5044"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/lazy_object_proxy-1.10.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "93e65a1eb33c4a94d35442f973d1dbf0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/libcst-1.3.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "5d077908bd64183908251015f5a8e503"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/libcst-1.3.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "70405db7aa3ace2c2efabc4f38230243"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/libhdf5-1.12.1.zip": {
+      "checksum": "ad850b441cf57872b845970f23fc196a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/libheif-1.12.0.zip": {
+      "checksum": "1009dbb6650dc9df6390669a36f2d05a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/libmagic-5.42.zip": {
+      "checksum": "93a926ce36595482bcf912b3c6f6d44d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/libnetcdf-4.9.2.zip": {
+      "checksum": "b2c16ef15abeec0b1d5ffe32f22e7a2d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/libsass-0.23.0-cp312-abi3-pyodide_2024_0_wasm32.whl": {
+      "checksum": "af6d0c7e554928f2c424e02babc56a5f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/lightgbm-4.3.0-py3-none-pyodide_2024_0_wasm32.whl": {
+      "checksum": "fb112303eb5bf7fd518f8b57a82b1ea6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/lightgbm-4.3.0-py3-none-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "8e4c022fe155a2c463399bb200d66ba1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/linkify_it_py-2.0.3-py3-none-any.whl": {
+      "checksum": "d2740ba84a6fd9fc626b058ac67a8aa8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/Logbook-1.7.0.post0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "f5b8e916817091a8e0f49168e66076aa"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/Logbook-1.7.0.post0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "dc943ef110a5013fce4ca202cf01f328"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/lxml-5.2.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "f68a70c0af85d92ddbff6a86f496ee56"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/lxml-5.2.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "27aad5d4282df5ace2d3e310f2722265"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/lzma-1.0.0.zip": {
+      "checksum": "9e0fb9de6381d876179f85f9c2e7020f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/markdown_it_py-3.0.0-py3-none-any.whl": {
+      "checksum": "261d52f83b11ca9280c84c7692de7c9d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/MarkupSafe-2.1.5-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "bcd756a56daf6e2ed3360d662e5c9435"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/MarkupSafe-2.1.5-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "5c851c5d30ee811764e713fdc257ec1a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/matplotlib_inline-0.1.7-py3-none-any.whl": {
+      "checksum": "db64b3d1fb1fc2af5b31da03c70f28f2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/matplotlib_inline-0.1.7-py3-none-any.whl.metadata": {
+      "checksum": "6c4fd2563f635373265b899318153eac"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/matplotlib_pyodide-0.2.2-py3-none-any.whl": {
+      "checksum": "503a842dda5b7a15d89a2f939ab350d8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/matplotlib_pyodide-0.2.2-py3-none-any.whl.metadata": {
+      "checksum": "cc958a997aa3e1ac660b8c80676b035d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/matplotlib-3.5.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "f37a683e7f3e6fe48ecdda24f5fcbea9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/matplotlib-3.5.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "4eea6c9a51e43a68562eabd7549d27a5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mdit_py_plugins-0.4.1-py3-none-any.whl": {
+      "checksum": "d326b6bb6794d0aba2b291a5abaf381a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mdurl-0.1.2-py3-none-any.whl": {
+      "checksum": "7db14dc5d739bfca141f035953620659"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/memory_allocator-0.1.4-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "309b3ec87162ecc6ed03552ac060f521"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/memory_allocator-0.1.4-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "f9f587d9b4d314a7c51c8630e2691cf9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/micropip-0.6.0-py3-none-any.whl": {
+      "checksum": "30a73759f5561817551677f53631819d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/micropip-0.6.0-py3-none-any.whl.metadata": {
+      "checksum": "a35a1238918af760a9146418d24afa11"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mizani-0.11.4-py3-none-any.whl": {
+      "checksum": "b4c09261f3a12179dc95e688de8cad0f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mmh3-4.1.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "a38ba62ff146334a499e503721b8db9f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mmh3-4.1.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "a9706719b691094726c7321964c90bff"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mne-1.7.0-py3-none-any.whl": {
+      "checksum": "b320176a1895ef0e10f8bd7cc1d058b3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mne-1.7.0-py3-none-any.whl.metadata": {
+      "checksum": "fa8304660347af7243560f62b99f6cd2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/more_itertools-10.2.0-py3-none-any.whl": {
+      "checksum": "b554d11cb33b19f990b3541859c1b4ba"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/more_itertools-10.2.0-py3-none-any.whl.metadata": {
+      "checksum": "0408300020fd47e0c7fb7402d6d18f84"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mpmath-1.3.0-py3-none-any.whl": {
+      "checksum": "70290dcdfa0cc89fc09bf383b99ed113"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mpmath-1.3.0-py3-none-any.whl.metadata": {
+      "checksum": "1c7ac7b37c616d09aaf222cdb0692461"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/msgpack-1.0.8-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "d2c26dd6b1ecb573df94ff358699c46d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/msgpack-1.0.8-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "129c2c83f35d990eb9d8d59d4b8b4246"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/msgspec-0.18.6-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "98da7fe7e590967065870680667b470b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/msgspec-0.18.6-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "dd968cde54b75769edd41fdb61e0b461"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/msprime-1.3.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "722f96aa3ef6ab6a10c3da1c0ab83671"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/msprime-1.3.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "2181757685fa7fadda37f354a27059ed"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/multidict-6.0.5-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "dc474f8ba455862efdd7d0d898a8dbf8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/multidict-6.0.5-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "ac6926bcdae85f77fb2b7d4e5476bd55"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/munch-4.0.0-py2.py3-none-any.whl": {
+      "checksum": "9adbc83b29351ef3c7265eaf87bc759e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/munch-4.0.0-py2.py3-none-any.whl.metadata": {
+      "checksum": "ad3cbd175d0d7a0d2b7b25ef00a471f7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mypy_extensions-1.0.0-py3-none-any.whl": {
+      "checksum": "858a2ef51fb6d80b9ef6a27f050cf1b2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mypy-1.9.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "880271aa09c9f21a422fabee925ee6cb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/mypy-1.9.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "ac977baf8cf507b91f8b56b9ec7c0cbb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/narwhals-1.12.1-py3-none-any.whl": {
+      "checksum": "41c6ce6569c468fa39e65b6e31002c8e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/netCDF4-1.6.5-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "fce03d8184b7510fdeb1e19aa91357f4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/netCDF4-1.6.5-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "23a34fb513fea22abc65fa9aac4ee40c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/networkx-3.3-py3-none-any.whl": {
+      "checksum": "36f1b3e069b6e7b158f5331228957059"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/networkx-3.3-py3-none-any.whl.metadata": {
+      "checksum": "0bb72b09420706ec1ea2b1b16f7baf62"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/newick-1.9.0-py2.py3-none-any.whl": {
+      "checksum": "8c35111a4e44d1d2f2803aa9c0b7b4c8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/newick-1.9.0-py2.py3-none-any.whl.metadata": {
+      "checksum": "214dedb819bbd0743d46f4b871cab449"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/nh3-0.2.17-cp37-abi3-pyodide_2024_0_wasm32.whl": {
+      "checksum": "211d86724f380858c0845e97b5eaca25"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/nh3-0.2.17-cp37-abi3-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "f69bf7cb6b7748dbc5630886c51fea65"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/nlopt-2.7.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "ccd87246c28078c30348aec8c1473940"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/nlopt-2.7.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "f4a035223adaed1371ff948cc1b3af5e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/nltk-3.8.1-py3-none-any.whl": {
+      "checksum": "0d592f3cab681fe15aba224b50ae37ed"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/nltk-3.8.1-py3-none-any.whl.metadata": {
+      "checksum": "0d9d928f91fda94be3ab32b83cba695b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/numcodecs-0.11.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "0b2b3f91d51eb4de8feabc792a3ce767"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/numcodecs-0.11.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "b217f34f767af8ffbe7bfb88d1c747c0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/numpy-1.26.4-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "7206ff2e366ab1601df1d70fb7c8239e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/numpy-1.26.4-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "a2e9d4e4a426955940eea69b39e1088a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/openblas-0.3.26.zip": {
+      "checksum": "5830e5b678dbbe9de1976cc6d6518402"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/opencv_python-4.9.0.80-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "5e6ddcdb350fc18fe5037c89a3e320a7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/opencv_python-4.9.0.80-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "2b1ad0429c80143ab213d3b0f99d3791"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/openssl-1.1.1n.zip": {
+      "checksum": "641a8a62d3ee36befbbc97b3f1820f65"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/optlang-1.8.1-py2.py3-none-any.whl": {
+      "checksum": "792f8ca7b12c2a4425f111528d4935fc"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/optlang-1.8.1-py2.py3-none-any.whl.metadata": {
+      "checksum": "3357a1378e23f6a63b7b1ce0187cdaa9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/orjson-3.10.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "6eab2ca426b00f85d5e42610396368fd"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/orjson-3.10.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "3d0ef97301fa054f81788d80b7fe47e2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/package.json": {
+      "checksum": "d7909e0db004e3375777b9aef42115e6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/packaging-23.2-py3-none-any.whl": {
+      "checksum": "b12574e87d4f5f1446803ed7a07f4716"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/packaging-23.2-py3-none-any.whl.metadata": {
+      "checksum": "317845a69e5aa3c0befd7fa11d9f3fc8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/palmerpenguins-0.1.4-py3-none-any.whl": {
+      "checksum": "388e2288bc2a32345ffd70ce2c5c28ac"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pandas-2.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "cd62cdfa071220d50a91ca7421ef71c3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pandas-2.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "3ee47be52fd58d4c99fef8f8b00648af"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/parso-0.8.4-py2.py3-none-any.whl": {
+      "checksum": "47a55e9699685f24bbc268f2967563b0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/parso-0.8.4-py2.py3-none-any.whl.metadata": {
+      "checksum": "139d4209de5041f6236c9ea18cba846f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pathspec-0.12.1-py3-none-any.whl": {
+      "checksum": "53caa061bbda861c5b4766f41b084ec8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/patsy-0.5.6-py2.py3-none-any.whl": {
+      "checksum": "87cc708f037315418650be0805a3ddac"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/patsy-0.5.6-py2.py3-none-any.whl.metadata": {
+      "checksum": "b3b3bf4254335852bfa73924dc21e151"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/peewee-3.17.3-py3-none-any.whl": {
+      "checksum": "4e02850cc20637cdc1a45f6bc6247698"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/peewee-3.17.3-py3-none-any.whl.metadata": {
+      "checksum": "ecb62535f727f4d0e788d9d96d699cff"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pillow_heif-0.8.0-cp36-abi3-pyodide_2024_0_wasm32.whl": {
+      "checksum": "69a434916e3cca059a446b8900dbb667"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pillow_heif-0.8.0-cp36-abi3-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "25bfd2ad1f4c0a5d33b189dc522ff1a8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pillow-10.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "c45e0055c0f9e1bde721e88d9fb356ae"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pillow-10.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "110e9738e0f64c8d0320d72eb845c49a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pkgconfig-1.5.5-py3-none-any.whl": {
+      "checksum": "cfe807a3aa3bfd750fe035f5ee9d4861"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pkgconfig-1.5.5-py3-none-any.whl.metadata": {
+      "checksum": "8ba6f2da1c4cba5a4f5f494238659c7a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/platformdirs-4.2.2-py3-none-any.whl": {
+      "checksum": "7be492232cbb9c634ccd3da68160d98b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/plotly-5.23.0-py3-none-any.whl": {
+      "checksum": "f1a87354bbef69078da1be99b4c6ed52"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/plotnine-0.0.0-py3-none-any.whl": {
+      "checksum": "edb4ffdc8ef743d7ea689d60e5202a16"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pluggy-1.5.0-py3-none-any.whl": {
+      "checksum": "e1dad1d71b24ca03374653524c6a5eb7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pluggy-1.5.0-py3-none-any.whl.metadata": {
+      "checksum": "24cd048b53fc3b5a762fe00208037842"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pplpy-0.8.10-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "3d04c776a50244dda03e7f9913351bce"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pplpy-0.8.10-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "4ad0834dba0c9dfe631687989f7ed3a8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/primecountpy-0.1.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "deff26d9bf6aadfeab394728f1ca804d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/primecountpy-0.1.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "90a59e312dd8c3c02d4dd5b8a1c931e3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/prompt_toolkit-3.0.43-py3-none-any.whl": {
+      "checksum": "0537dddca4a5ab408471021652b19237"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/prompt_toolkit-3.0.43-py3-none-any.whl.metadata": {
+      "checksum": "3f58cedcb46b0118e36d70ccfd323f01"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/protobuf-4.24.4-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "89a9b8a02d6673fe368b0d8502aef781"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/protobuf-4.24.4-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "33ae3dbdfa48be3dfda758cfc2730531"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pure_eval-0.2.2-py3-none-any.whl": {
+      "checksum": "fbccf310606ae037a170d40bdaf9c172"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pure_eval-0.2.2-py3-none-any.whl.metadata": {
+      "checksum": "f16a4bf10bc813b1d7ef13d29373db47"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/py-1.11.0-py2.py3-none-any.whl": {
+      "checksum": "f8744ec6fafd67bdea4aff38718806ab"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/py-1.11.0-py2.py3-none-any.whl.metadata": {
+      "checksum": "e40fd4be33c8b1145b5246910957976a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyclipper-1.3.0.post5-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "c2f99f028ba88fdf2aa880221bcdbf8b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyclipper-1.3.0.post5-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "44560dc09cf5a82126a7d443a8ce7f66"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pycparser-2.22-py3-none-any.whl": {
+      "checksum": "df81deca8d0459301e9b216609491da2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pycparser-2.22-py3-none-any.whl.metadata": {
+      "checksum": "b17a08aa7b8443ed22f2762481a4db10"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pycryptodome-3.20.0-cp35-abi3-pyodide_2024_0_wasm32.whl": {
+      "checksum": "6429673d233fcd1864c77ca690145a5a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pycryptodome-3.20.0-cp35-abi3-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "36bb86023e0d07c4718046786ae9584f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pydantic_core-2.18.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "f439f8e83da6b4c31ed37121b634770a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pydantic_core-2.18.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "a48c38124f9a3916d399cb17b3ff948e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pydantic-2.7.0-py3-none-any.whl": {
+      "checksum": "504cf9d856970282603e19b7219374db"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pydantic-2.7.0-py3-none-any.whl.metadata": {
+      "checksum": "16691be16f8133b2d5ae0fdbc7de2a01"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pydecimal-1.0.0.zip": {
+      "checksum": "d19ee18c556c1d7908057400805b25fd"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pydoc_data-1.0.0.zip": {
+      "checksum": "23d2fadc446c6b4c51b32890b898d901"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyerfa-2.0.1.4-cp39-abi3-pyodide_2024_0_wasm32.whl": {
+      "checksum": "07036cf867281914dc5a6daff35c923f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyerfa-2.0.1.4-cp39-abi3-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "1848a169fe9206019c76a7749bddbc0d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pygame_ce-2.4.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "58e84cf73b48adda600e203d5a5397aa"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pygame_ce-2.4.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "4e1fcb6350576db1a12855b2d6c13e27"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pygments-2.17.2-py3-none-any.whl": {
+      "checksum": "6c35ccadfa5173ffb491d19f213a6800"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pygments-2.17.2-py3-none-any.whl.metadata": {
+      "checksum": "43eb8f372fb556fd07f7b425dab1b7df"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyheif-0.7.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "98ac5971b9f51b0e90727fda83ecce7f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyheif-0.7.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "8c3f16b4e0e97d2886ddf89b62158c3f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyiceberg-0.6.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "840c26c901885d8ab7c438150e87e7d3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyiceberg-0.6.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "3e4a2baa6e66dce17d0e58766b9856ea"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyinstrument-4.4.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "1523796ee77d7b53e6c274ef8116502e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyinstrument-4.4.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "76fe2f5e7b666022a8eeee49b863e0d7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/PyNaCl-1.5.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "4ea40175ecf89ddcfbacde5ebb9c8c57"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/PyNaCl-1.5.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "7f10205146e58f0dab3ee0e784f6ed08"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyodide_http-0.2.1-py3-none-any.whl": {
+      "checksum": "eb819b3aec19a5f6975ba7407bd88361"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyodide_http-0.2.1-py3-none-any.whl.metadata": {
+      "checksum": "21d515533bc69c1d632a7c95fa9c9eaf"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyodide-lock.json": {
+      "checksum": "0c1e40cdecfed3698ece3c07ca681f85"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyodide-lock.orig.json": {
+      "checksum": "0e95b31a1be41d8a74a6e95a9c0ae861"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyodide.asm.js": {
+      "checksum": "2c7dd8e2aae5c4524728f36debb1e0cb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyodide.asm.wasm": {
+      "checksum": "0aaac6a6708a581483f4f91cb0688867"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyodide.d.ts": {
+      "checksum": "7416accb63da1dcdc6be5f9d9dd2a0ad"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyodide.js": {
+      "checksum": "a32af37238258fb08e4163beddceb91c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyodide.js.map": {
+      "checksum": "aa1407c2723530a328af67cb63adf7bb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyodide.mjs": {
+      "checksum": "3bea40ab0158e59592c492d21fa5c8c5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyodide.mjs.map": {
+      "checksum": "c4ce2b8dbada9d7c8c86dd89405bf6ab"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyparsing-3.1.2-py3-none-any.whl": {
+      "checksum": "1f2e11a2f8bd19c26b3c6d548c24b6ff"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyparsing-3.1.2-py3-none-any.whl.metadata": {
+      "checksum": "9aa862801708f4239632928835cfbc62"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pypng-0.20220715.0-py3-none-any.whl": {
+      "checksum": "13cd4530ec1eaf02c361b334ee33e1e7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyproj-3.6.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "5c51e55b141c10f92fa0c52b343d1cdf"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyproj-3.6.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "7151ac7982418dc0984ba83119437408"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyrsistent-0.20.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "5e5b39bf80e4be6dcdea8157d7170d8d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyrsistent-0.20.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "7774f99a44c456a16fca608f82e249b0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pysam-0.22.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "6063ccb1412da7814d8573f5baa758fd"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pysam-0.22.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "b0f338a614c753030e9667040f1fff2b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyshp-2.3.1-py2.py3-none-any.whl": {
+      "checksum": "30a61d24be8ec021c489df69609dad6e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyshp-2.3.1-py2.py3-none-any.whl.metadata": {
+      "checksum": "650b6b95c222a615e15ad7cb05c4e39a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pytest_asyncio-0.23.7-py3-none-any.whl": {
+      "checksum": "34f49b97392866623521e98a38ac1966"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pytest_asyncio-0.23.7-py3-none-any.whl.metadata": {
+      "checksum": "488e3ad1f3509eccb56f3e6b061b9e29"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pytest_benchmark-4.0.0-py3-none-any.whl": {
+      "checksum": "911ee5cd2c06b7b43e9c164a00d362d3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pytest_benchmark-4.0.0-py3-none-any.whl.metadata": {
+      "checksum": "151016ac9baa7a2a84244cc883f5d121"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pytest-8.1.1-py3-none-any.whl": {
+      "checksum": "d71fbd868f586b0b62683bda494aafac"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pytest-8.1.1-py3-none-any.whl.metadata": {
+      "checksum": "b28ebcb76e0cf740eecceb38637e7cff"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python": {
+      "checksum": "8b1957d8cb87b89bb557db9638d524a7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_dateutil-2.9.0.post0-py2.py3-none-any.whl": {
+      "checksum": "4c1619fdc8e74b5b3fc2d56c5283ed1a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata": {
+      "checksum": "4ce7a65bcd652219b4cc3b39789c5258"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_flint-0.6.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "fc8c85c264cf442035a5692938daf569"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_flint-0.6.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "a84c1bbf53a0c589d08f4e822dae9992"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_magic-0.4.27-py2.py3-none-any.whl": {
+      "checksum": "99e731f3de42d7691ccb461b1b8a3d97"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_magic-0.4.27-py2.py3-none-any.whl.metadata": {
+      "checksum": "46dcbccb7879b6176aa655fe702302b4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_multipart-0.0.9-py3-none-any.whl": {
+      "checksum": "3cf91ae0cd9f142ff08628545b17055a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_sat-1.8.dev13-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "c38dda1ace46ab3663d5de5a4f4ace77"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_sat-1.8.dev13-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "4c5e5f43caccf499ba5d7a4cd94c50a9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_solvespace-3.0.8-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "a1202f3f4dbe1e89965502bf9c369bb9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_solvespace-3.0.8-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "9ca06946413cc849318c49a5cadc8881"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/python_stdlib.zip": {
+      "checksum": "5fdbb3413a3bc1665af41336d4e64002"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pytz-2024.1-py2.py3-none-any.whl": {
+      "checksum": "32826fbc2327c523439b167bfc9bffdb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pytz-2024.1-py2.py3-none-any.whl.metadata": {
+      "checksum": "2a3bfb9827a85d13e2980e661deb7455"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pywavelets-1.6.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "b7cde9fa1a563c1b13a2696ebeb99531"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pywavelets-1.6.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "0eae2703c6577a1fe0bd954946d58079"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyxel-1.9.10-cp37-abi3-pyodide_2024_0_wasm32.whl": {
+      "checksum": "aeef592c980f6d762c594a2874793eb4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyxel-1.9.10-cp37-abi3-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "c684678a103e51f266875d0fff5c8c00"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyxirr-0.10.3-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "f377dda23a6fe8a32db400e002f3173d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/pyxirr-0.10.3-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "9bcbb7f3c16b6ee89e436433d7cec924"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/PyYAML-6.0.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "6f7c96cad95e6f7181038b5b3b380b1c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/PyYAML-6.0.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "f4c79869c6b2c4dbba35d5fd6d3a7050"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/qrcode-7.4.2-py3-none-any.whl": {
+      "checksum": "fdee6ccf06f9f852d44b56c059728201"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/rebound-3.24.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "65a46a578082530e42613ca732af1f18"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/rebound-3.24.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "2ea2409b9a314d5a7c0e2b03c5cb790d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/reboundx-3.10.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "c4307df792ede62baf095fd8d0390735"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/reboundx-3.10.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "f5ec9ff710226ff389674946143f69bf"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/referencing-0.34.0-py3-none-any.whl": {
+      "checksum": "43c8104b927a1a8a38744cbd9eb92ace"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/referencing-0.34.0-py3-none-any.whl.metadata": {
+      "checksum": "37724250b0b106cc483d9f88b1e99730"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/regex-2024.4.16-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "f573d0f44baf11222690e0a67074b31b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/regex-2024.4.16-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "bfafa7a2ce8984c80cde666fe58f88b5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/requests-2.31.0-py3-none-any.whl": {
+      "checksum": "fed6e526284c5bc699a3419953ba5a24"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/requests-2.31.0-py3-none-any.whl.metadata": {
+      "checksum": "5bb07b345787ee78ac4759e55d52b2b9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/retrying-1.3.4-py3-none-any.whl": {
+      "checksum": "4754dc8fe2818af96ae6392ac4e5cdf1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/retrying-1.3.4-py3-none-any.whl.metadata": {
+      "checksum": "857b9a856afe862ec654d51e4c4ab275"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/rich-13.7.1-py3-none-any.whl": {
+      "checksum": "8d9aefaad0eba735620654289c435938"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/rich-13.7.1-py3-none-any.whl.metadata": {
+      "checksum": "d6cf389b05dab005c18ab942e55fc7e0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/river-0.19.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "d4542d10e1cfacec492fefb83942c70a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/river-0.19.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "b2aa2c85cf6c1e2e18af568b6472e342"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/RobotRaconteur-1.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "938bfbcf545f51f855f1b4c8bdf3fc19"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/RobotRaconteur-1.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "10ac1d13dfbd3fb8ebcc863ca16c9f94"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/rpds_py-0.18.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "2eec0ddd424c6d74e45f37a0fca47fd7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/rpds_py-0.18.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "601377a05d0c288782de08de444a086c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/ruamel.yaml-0.18.6-py3-none-any.whl": {
+      "checksum": "b03f4238903c4a83fe6b2cdf9f2e1175"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/ruamel.yaml-0.18.6-py3-none-any.whl.metadata": {
+      "checksum": "901e95f7d222bead875b2f44f3a2d151"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/rust_panic_test-1.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "8da7b8ba71a7809630c3b39db1ee5cf4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/rust_panic_test-1.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "235d9aa6a811c3aff30a20341e6fcce0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/scikit_image-0.23.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "76a6e7c56a4ac40aec07d358d4735408"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/scikit_image-0.23.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "42197e49d3ecfd046ec181faa10b5b96"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/scikit_learn-1.4.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "5d9959f80a015e1fc944602bb81e1c6a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/scikit_learn-1.4.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "e6f598942b8174d9d799e25d6571ff3b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/scipy-1.12.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "4f382ca8ff273a70a62df0ce699e5738"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/scipy-1.12.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "b31a031855436a82d63e83b571ed050d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/screed-1.1.3-py2.py3-none-any.whl": {
+      "checksum": "482879d19f378c7a2050df6ab4bff49f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/screed-1.1.3-py2.py3-none-any.whl.metadata": {
+      "checksum": "6c1661ada8e301622ada9251093415ad"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/seaborn-0.13.2-py3-none-any.whl": {
+      "checksum": "370853fdbfd32579c7c332af8ca89908"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/setuptools-69.5.1-py3-none-any.whl": {
+      "checksum": "7bcc60a1ec626deca412b852a90fe8a9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/setuptools-69.5.1-py3-none-any.whl.metadata": {
+      "checksum": "73680194760a890ade27a46fd4d39082"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/shapely-2.0.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "0d03f2630d22083d0eafc75a02dfc089"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/shapely-2.0.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "c47265683c843d47abc8dfc46db6c278"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sharedlib_test_py-1.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "5ca5c67280cd8c12c77bec29af04f071"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sharedlib_test_py-1.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "efe7b96a18c33be73aee49f7a5d790bd"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sharedlib-test-1.0.zip": {
+      "checksum": "f5f3ce87c95775bbfe45a8c0ce437c56"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/shiny-1.2.0-py3-none-any.whl": {
+      "checksum": "d9c5d1cd66dc9cacb4b1ea7e9bcb3550"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/shinyswatch-0.8.0-py3-none-any.whl": {
+      "checksum": "7e2b3e01f9373ea28aad0c1df24323a9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/shinywidgets-0.3.4-py3-none-any.whl": {
+      "checksum": "6d6afd19fbd8868b6d207e7e7ee174c8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/simplejson-3.19.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "87365e56d615e58cdf2fc3b506f136a3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/simplejson-3.19.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "23bb5ead72804d7b2ca88706a3517cd1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sisl-0.14.3-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "495d8136e0299913d36a93dac106bfa8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sisl-0.14.3-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "51247bc91790132ae709e532fb3671ee"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/siuba-0.4.4-py3-none-any.whl": {
+      "checksum": "0a05413635f481da7e39a5e1be482fbb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/six-1.16.0-py2.py3-none-any.whl": {
+      "checksum": "242d145c56b2c19327b3886da6df19ce"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/six-1.16.0-py2.py3-none-any.whl.metadata": {
+      "checksum": "733fa2411ca58dd94eea53b4a2fa269a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/smart_open-7.0.4-py3-none-any.whl": {
+      "checksum": "fdb078bda1ff144f85e8991c7885cc82"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/smart_open-7.0.4-py3-none-any.whl.metadata": {
+      "checksum": "046ac96cbfaa87587729a5d22f855407"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sniffio-1.3.1-py3-none-any.whl": {
+      "checksum": "995b1c07546ce03df296f3161a60fc4b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sortedcontainers-2.4.0-py2.py3-none-any.whl": {
+      "checksum": "75ebbda0e193ac2106dd74e539018435"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sortedcontainers-2.4.0-py2.py3-none-any.whl.metadata": {
+      "checksum": "7a3d2704a0f198ebd7d8353fb8b82cc9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/soupsieve-2.5-py3-none-any.whl": {
+      "checksum": "b331a3432f4b30f56857273255bdc502"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/soupsieve-2.5-py3-none-any.whl.metadata": {
+      "checksum": "5f0d59558f9526c57786ffcab57fbe7f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sourmash-4.8.8-py3-none-pyodide_2024_0_wasm32.whl": {
+      "checksum": "59353a9db5d4077e5a7bba0904da808f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sourmash-4.8.8-py3-none-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "5d31d7380078218999699ac66fbb7ac1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sparseqr-1.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "d9d9f5dfad4340ffd18794632b42b7dd"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sparseqr-1.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "bfaaeba9b3703e34a41b4e407251bfc6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/SQLAlchemy-2.0.29-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "c84ac4e6fac56c4b3e5f1e00cb7da126"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/SQLAlchemy-2.0.29-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "900538a996131ee2ab145f2e7058929f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sqlite3-1.0.0.zip": {
+      "checksum": "e30f763fce207f1a8ee0abf1bb4e254d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/ssl-1.0.0.zip": {
+      "checksum": "ad018aa50d991a045c1340f28b8b103a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/stack_data-0.6.3-py3-none-any.whl": {
+      "checksum": "8191c7cc05b733d8697966b8b6b71224"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/stack_data-0.6.3-py3-none-any.whl.metadata": {
+      "checksum": "563a0f0505d885c8e8dea45a3e7cdf04"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/starlette-0.38.1-py3-none-any.whl": {
+      "checksum": "f6ceb391a8ba8cead5a88e8d0e70921f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/statsmodels-0.14.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "dc401a592f30dcd11fe0b7fb6e0edeb1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/statsmodels-0.14.2-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "3ea75bfd2acd378699880bcdb13edb90"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/strictyaml-1.7.3-py3-none-any.whl": {
+      "checksum": "330ffa73f87876c396acf0e00f772c61"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/strictyaml-1.7.3-py3-none-any.whl.metadata": {
+      "checksum": "4f58392148a220b30f05811cfd1a20f8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/suitesparse-5.11.0.zip": {
+      "checksum": "07b8c19a40344186103d275105782009"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/svgwrite-1.4.3-py3-none-any.whl": {
+      "checksum": "64fbd37e5a58be9f1ef1bc3b88d7d9d4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/svgwrite-1.4.3-py3-none-any.whl.metadata": {
+      "checksum": "651b4f2290ed6e72262c45ac305c7792"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/swiglpk-5.0.10-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "beca7c6764b6c08bdaf61ce303914ac4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/swiglpk-5.0.10-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "895c4ceeff04112c9a20eadf4f537fb3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sympy-1.12-py3-none-any.whl": {
+      "checksum": "a722227afabdcdb3fb2133624171904f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/sympy-1.12-py3-none-any.whl.metadata": {
+      "checksum": "e0c45eb2b5aead28e0ff3f9ae8aaeeb7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tblib-3.0.0-py3-none-any.whl": {
+      "checksum": "1323bbf19041ed964ee73769d54205b8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tblib-3.0.0-py3-none-any.whl.metadata": {
+      "checksum": "79b118dec0d8b23dc11df7d2e4ecb9a8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tenacity-8.5.0-py3-none-any.whl": {
+      "checksum": "3c233507b9b8736c5f29e02608c22134"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/termcolor-2.4.0-py3-none-any.whl": {
+      "checksum": "9db23eb259d8cd26b944c57654890f79"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/termcolor-2.4.0-py3-none-any.whl.metadata": {
+      "checksum": "5cde0f862c06a381953f18a191737467"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/test-1.0.0.zip": {
+      "checksum": "c9c521cbbab81b29d70e95b27e00965b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/texttable-1.7.0-py2.py3-none-any.whl": {
+      "checksum": "2ea29495229f5f28107b03b8c074489c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/texttable-1.7.0-py2.py3-none-any.whl.metadata": {
+      "checksum": "34222b883a4f1e737a486ee7bfec748d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/threadpoolctl-3.4.0-py3-none-any.whl": {
+      "checksum": "56418663cadee23b34b0e8330cda691e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/threadpoolctl-3.4.0-py3-none-any.whl.metadata": {
+      "checksum": "722b144ca8c97286ccf6fff1660b8191"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tomli_w-1.0.0-py3-none-any.whl": {
+      "checksum": "e758efdb75d0dc323a6c524adfb3cbec"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tomli_w-1.0.0-py3-none-any.whl.metadata": {
+      "checksum": "3a2c4a0094430859d78309813f96e84a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tomli-2.0.1-py3-none-any.whl": {
+      "checksum": "8b9e3df3c5427f4ab651feeacf01bf5a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tomli-2.0.1-py3-none-any.whl.metadata": {
+      "checksum": "cbbf7047a51feda58386e86182b85b8a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/toolz-0.12.1-py3-none-any.whl": {
+      "checksum": "79a3d4d0aa5848b5b3d7a74758e8c438"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/toolz-0.12.1-py3-none-any.whl.metadata": {
+      "checksum": "b9ac9ce58c4196a5a2f3966782579896"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tqdm-4.66.2-py3-none-any.whl": {
+      "checksum": "4ed62ae6787c4c1e29575b146fc8480f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tqdm-4.66.2-py3-none-any.whl.metadata": {
+      "checksum": "4ec2ca184147e90221a67ffb33f3b339"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/traitlets-5.14.3-py3-none-any.whl": {
+      "checksum": "b827890269b0cd5f3550d3b00d912759"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/traitlets-5.14.3-py3-none-any.whl.metadata": {
+      "checksum": "6f027fcd8ca652a20d0d57186b71b769"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/traits-6.4.3-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "d4625aa27e50684cfe595bb3da6e25aa"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/traits-6.4.3-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "e47528e59437ff88849ec91078717c21"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/traittypes-0.2.1-py2.py3-none-any.whl": {
+      "checksum": "9d0af75bb0910f0b7ac9c654a6e972c6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tskit-0.5.6-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "63f0904e696404d6adcf593db74b1c3d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tskit-0.5.6-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "43f16336e9032546b484065b8ce8af44"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/typing_extensions-4.11.0-py3-none-any.whl": {
+      "checksum": "6cd1ebb8580ba93b1552199c7694a1aa"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/typing_extensions-4.11.0-py3-none-any.whl.metadata": {
+      "checksum": "d72ce35d499fa8bf626b0529e0bf54ac"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tzdata-2024.1-py2.py3-none-any.whl": {
+      "checksum": "d1a4876ac0728003c903f3043a3dce75"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/tzdata-2024.1-py2.py3-none-any.whl.metadata": {
+      "checksum": "3e7be03a5b9b874d21832a09849d859e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/uc_micro_py-1.0.3-py3-none-any.whl": {
+      "checksum": "62b0d0aea6849606c2818f6027b3f000"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/uncertainties-3.1.7-py2.py3-none-any.whl": {
+      "checksum": "2d5f78188c10c599c2491bb1b3561c62"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/uncertainties-3.1.7-py2.py3-none-any.whl.metadata": {
+      "checksum": "d8fde7a3ad4ab326fa176c05d0cb60b6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/unyt-3.0.2-py3-none-any.whl": {
+      "checksum": "ebaad079bf28b5d75efc87c2a02126ca"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/unyt-3.0.2-py3-none-any.whl.metadata": {
+      "checksum": "9075bdedaec29393b5552992afa40600"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/urllib3-2.2.1-py3-none-any.whl": {
+      "checksum": "b310228948170fe9394daaaaf8acbb45"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/urllib3-2.2.1-py3-none-any.whl.metadata": {
+      "checksum": "f799281e0fce7b0449c9bfb4e927b0a0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/wcwidth-0.2.13-py2.py3-none-any.whl": {
+      "checksum": "f402a99b9ae7e4cac123cbda5021c286"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/wcwidth-0.2.13-py2.py3-none-any.whl.metadata": {
+      "checksum": "b5fdecc39f4f784f3055184b70e7585c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/webencodings-0.5.1-py2.py3-none-any.whl": {
+      "checksum": "8aa60379ade61043d53ae06fccaf20a1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/webencodings-0.5.1-py2.py3-none-any.whl.metadata": {
+      "checksum": "34322b248bb1856002645ac97357d6f6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/webworker.js": {
+      "checksum": "36e0357f37475273a6d36a496f6d7920"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/wordcloud-1.9.3-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "fcf82f4d5ecc2ed83fdc074bc72e93f0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/wordcloud-1.9.3-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "b2d6354a7b11955d95bbbbd72c51a0f1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/wrapt-1.16.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "83ed8b6e1b4f361dcb78aa26d5c1c1c5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/wrapt-1.16.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "aad09229f34993b14e3b9afa8300b24c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/xarray-2024.3.0-py3-none-any.whl": {
+      "checksum": "db0c819d4156044b84454b5a9060be69"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/xarray-2024.3.0-py3-none-any.whl.metadata": {
+      "checksum": "cdc13b3f136d62eff633eee7d33d45a0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/xgboost-2.1.0.dev0-py3-none-pyodide_2024_0_wasm32.whl": {
+      "checksum": "6b9d8cece089f07c01fc61de8700f3e6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/xgboost-2.1.0.dev0-py3-none-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "6e0c18d78206a53cb26e0de8e5a070c6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/xlrd-2.0.1-py2.py3-none-any.whl": {
+      "checksum": "6494e71a44ee0a1da5d0e2dd8bb82a61"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/xlrd-2.0.1-py2.py3-none-any.whl.metadata": {
+      "checksum": "62294c642e60d24eb3bb12d555c88925"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/xxhash-3.4.1-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "df40a0699234302019c4bda84e947627"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/xxhash-3.4.1-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "38b75667998baf32966bd1fa669a1ad1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/xyzservices-2024.4.0-py3-none-any.whl": {
+      "checksum": "3bca15d0c8cf758d19c8d3a190a162b0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/xyzservices-2024.4.0-py3-none-any.whl.metadata": {
+      "checksum": "87b96a123dab47b7c398436ab95baac7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/yarl-1.9.4-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "ce1af3bac53ffd461f37c4e2c7bc9826"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/yarl-1.9.4-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "61efbc1ccf264c4f467deed886e7527d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/yt-4.3.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "d770f9b672d0f9cb4a14f0aa08c7043d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/yt-4.3.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "57f143ef39cb7ba608bcb86d0d2800b3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/zarr-2.16.1-py3-none-any.whl": {
+      "checksum": "4dddf19eed40dae891c8ebba1b67c840"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/zarr-2.16.1-py3-none-any.whl.metadata": {
+      "checksum": "020844a3f580475b6b9f32897d607b1c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/zengl-2.4.1-cp311-abi3-pyodide_2024_0_wasm32.whl": {
+      "checksum": "3f22d6199aa0f352f7ffc90a6876652c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/zengl-2.4.1-cp311-abi3-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "994025fcbc24c7783c89f003bc75f811"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/zstandard-0.22.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+      "checksum": "ecaf6836e8b6e1d2cc2d4ab24e649373"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyodide/zstandard-0.22.0-cp312-cp312-pyodide_2024_0_wasm32.whl.metadata": {
+      "checksum": "2b2908bd5ac1c1aea35c231cb7102087"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyright/PYRIGHT_LICENSE.txt": {
+      "checksum": "bdf4648c656cd2b78c79021b2ee1f0c5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyright/pyright.worker.js": {
+      "checksum": "3f2db5567981978c4df7c992ad45337f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyright/pyright.worker.js.map": {
+      "checksum": "b3f9342d187ff879c77d6601c92fb0f7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyright/README.md": {
+      "checksum": "4ea78a42011147ef253ec4ab3bf16477"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/pyright/typeshed.en.json": {
+      "checksum": "de35e02c00e886ab9cfdabb0de46db94"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/run-python-blocks.js": {
+      "checksum": "284bce30428215fc78b40e87d87751c9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/shinylive.css": {
+      "checksum": "2191f7bef7b5af50ba71a7e7c8b099e6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/shinylive.js": {
+      "checksum": "111617451cf5fa791943e2fd8be3523b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/SourceSansPro-Regular.otf-PVQ5ZP77.woff2": {
+      "checksum": "0448fda3606e6dc571f763223e78861a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/style-resets.css": {
+      "checksum": "326179a3af08325314a9f92ef53b7b20"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/esbuild.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/library.data.gz": {
+      "checksum": "3fd7111f335906871c37a3deaca4ddf0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/library.js.metadata": {
+      "checksum": "22c3351a15690195ae61d17e0a1b851f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/libRblas.so": {
+      "checksum": "95d021b4cd5f74a6abbee092a2de30bc"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/libRlapack.so": {
+      "checksum": "2061ea193621976d961a0421ef431f56"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/R.bin.js": {
+      "checksum": "3f848b680dabe7729891d8e31fde39df"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/R.bin.js.bak": {
+      "checksum": "fb9b34092c91cbf78da454c851abd4ab"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/R.bin.wasm": {
+      "checksum": "65c0bb88e8bb52d4abd72d65d08c350a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/repl/App.d.ts": {
+      "checksum": "6f52674a713dc1a91ec7ceb6661ae83f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/repl/components/Editor.d.ts": {
+      "checksum": "1600d80cccab2f3d43742373e9e605f3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/repl/components/Files.d.ts": {
+      "checksum": "85184877fbba6a5cf7cdeac40f2698b1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/repl/components/Plot.d.ts": {
+      "checksum": "132d88e78dac188518bfc3e9805e635d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/repl/components/Terminal.d.ts": {
+      "checksum": "1848af6209f7312499f43197fdaf5ac7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/repl/components/utils.d.ts": {
+      "checksum": "b9f9171cc64739ca15d789bbf6529271"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/tests/packages/webr.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/tests/webR/chan/channel-postmessage.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/tests/webR/console.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/tests/webR/error.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/tests/webR/mount.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/tests/webR/proxy.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/tests/webR/robj.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/tests/webR/utils.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/tests/webR/webr-main.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/tests/webR/webr-r.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/tests/webR/webr-worker.test.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/etc/fonts/fonts.conf": {
+      "checksum": "6300427804c4677462c2b187d9e2d3d3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/doc.data.gz": {
+      "checksum": "189bf90daf482045c04d29c78fc3efa1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/doc.js.metadata": {
+      "checksum": "a747595f2c53bcba0c57a0c1534499a3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/demo.data.gz": {
+      "checksum": "079e9d73453dcd1ea1f860226498a417"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/demo.js.metadata": {
+      "checksum": "bf73c10ef38977281a0a823054ff08ab"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/help.data.gz": {
+      "checksum": "1e948c99be12b0befdc5715f6834a16f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/help.js.metadata": {
+      "checksum": "7821f4c7805e6a2fe5e91cb51dc090c4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/html.data.gz": {
+      "checksum": "f425bcccc2d94280957d57180f9b2a59"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/base/html.js.metadata": {
+      "checksum": "7ba454753f5b85cac74f2b66b97c8247"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/help.data.gz": {
+      "checksum": "892f3f5a74e34a7b5005bea4ffa9893d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/help.js.metadata": {
+      "checksum": "03fadda87f6131bf311bd0f99b3d2636"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/html.data.gz": {
+      "checksum": "bb156e5e7524e9ca72bc5aa0c7d30bc2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/html.js.metadata": {
+      "checksum": "1af0681672853159028ccdbaecd4433d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/tests.data.gz": {
+      "checksum": "51f97dcedd30c0e72f37adabedcf79d8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/compiler/tests.js.metadata": {
+      "checksum": "1868ff2023f0a715f586b0b997323536"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/datasets/help.data.gz": {
+      "checksum": "6aac044f9f08247f662e0ed2d869196f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/datasets/help.js.metadata": {
+      "checksum": "216cc330dc992bbdbafe6d0fcfb71eec"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/datasets/html.data.gz": {
+      "checksum": "d2423df8ff4acc40625aa656441f9d22"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/datasets/html.js.metadata": {
+      "checksum": "710992e6c0e35f1fa2cb427caa7ddc33"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/demo.data.gz": {
+      "checksum": "a77fea69b2a3ac26c42a4bc5e53e4158"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/demo.js.metadata": {
+      "checksum": "641dd3b6e318c9bd7cd044a7a96735c9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/help.data.gz": {
+      "checksum": "a0b8a84e305c9c6431f85b0d5d6423bb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/help.js.metadata": {
+      "checksum": "fd3d6c396163ddef881566c315b0b91f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/html.data.gz": {
+      "checksum": "892c9f0de89ebacf39417aec1721c5a5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/graphics/html.js.metadata": {
+      "checksum": "eaa7381c21f495d1e2a0d0b2a2a19a02"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/afm.data.gz": {
+      "checksum": "df161062d0d89fe9c8750b95603eb414"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/afm.js.metadata": {
+      "checksum": "9cba9a4535baef593b96eed0003bc03d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/demo.data.gz": {
+      "checksum": "9dc9ce1b8e0be41a01d0c47665420b90"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/demo.js.metadata": {
+      "checksum": "8883d9a5770c131cd37e491a66d5f2d9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/enc.data.gz": {
+      "checksum": "a6d8fe92dffe9e6b562e731189119253"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/enc.js.metadata": {
+      "checksum": "516864001be8080cb4e938bcfeb1366f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/fonts.data.gz": {
+      "checksum": "daa6e78e427d8ffceb3fb6852b7756b0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/fonts.js.metadata": {
+      "checksum": "7b3727b93d155fd5770e87539d88fa45"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/help.data.gz": {
+      "checksum": "5fe1c4e943cca31575fb8d58558f672f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/help.js.metadata": {
+      "checksum": "c84d442aacf0391a80bf932f2cea4b17"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/html.data.gz": {
+      "checksum": "7b1d130c5132c7e6b694ba530113f749"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/html.js.metadata": {
+      "checksum": "a00fc1598449bf5fed1b8d1144911544"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/libs.data.gz": {
+      "checksum": "b6bee4ccc1199b69c68d861caeb4f0d3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/libs.js.metadata": {
+      "checksum": "e441f909946d13ea1a9a290af577c64b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/tests.data.gz": {
+      "checksum": "5291b3572f9586c9f4f19d3bb0886c32"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grDevices/tests.js.metadata": {
+      "checksum": "4f7ebfcae6fdfbf210bacfb13bf11ca6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/doc.data.gz": {
+      "checksum": "2bd0664745ef82a32fec3a48443f51f8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/doc.js.metadata": {
+      "checksum": "6b2e9947c2bdf1fab22b0d8c6fae1503"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/help.data.gz": {
+      "checksum": "3feb6f1df71b8c5a5ba4ae91ce380d67"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/help.js.metadata": {
+      "checksum": "734d1214108f1d703da68c5ee060d623"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/html.data.gz": {
+      "checksum": "f1e5c78d950f42b934035adf28ec04a1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/html.js.metadata": {
+      "checksum": "b67fe52dc201a1bb07292047aba4fd77"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/tests.data.gz": {
+      "checksum": "df15969c564c2b8345c1c70847f47801"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/grid/tests.js.metadata": {
+      "checksum": "08fe5a2551197285584345a51d8c2acf"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/help.data.gz": {
+      "checksum": "e65076512220527f7711ffa2981eba2e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/help.js.metadata": {
+      "checksum": "2240c33147f18682592c6868194635f8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/html.data.gz": {
+      "checksum": "e39b1c6e8a0a1f50815046f4e2fc916e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/html.js.metadata": {
+      "checksum": "8f39d45134f44a72b97a909ad582543c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/tests.data.gz": {
+      "checksum": "9285d6323510ab932c29a50768d5c921"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/methods/tests.js.metadata": {
+      "checksum": "e8b3513f6be14ab96d6f1ae38d2edf15"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/parallel.data.gz": {
+      "checksum": "c9a5c9c835fb279ccacb099d4e99b291"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/parallel.js.metadata": {
+      "checksum": "18f67a0b32d58e57fb0fb3ca4269d5eb"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/help.data.gz": {
+      "checksum": "aa11e5368abe19cf238b8c2bfc31e3df"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/help.js.metadata": {
+      "checksum": "1785274cf08329875a1874aac92f7cf8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/html.data.gz": {
+      "checksum": "609ff8b7f011f13778022d94fa6c2ff1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/html.js.metadata": {
+      "checksum": "23de4b5bbae29ac86d2109caefa041da"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/tests.data.gz": {
+      "checksum": "ab09685305595a2e40acf3079b90750b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/splines/tests.js.metadata": {
+      "checksum": "a0c414570cc4738b41a96d5dfd654c25"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/demo.data.gz": {
+      "checksum": "c2583264c4a28cb8177917fe0cd49d7e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/demo.js.metadata": {
+      "checksum": "84af5ae1632e5e6b4a99991e670c8664"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/help.data.gz": {
+      "checksum": "77fdf8728cdcc04d9d0158dbe812de34"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/help.js.metadata": {
+      "checksum": "396344b6b9eb2f33df4f306bb67e16e0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/html.data.gz": {
+      "checksum": "d93193a37fac766915c5043690bc7c5a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/html.js.metadata": {
+      "checksum": "c6d3e1209d8bb2346e4ccbaee02bb1f7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/tests.data.gz": {
+      "checksum": "f4989f477b7fa6cfcfc9de9e11448a91"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats/tests.js.metadata": {
+      "checksum": "9c2e24ce4bfddc081e54a338e201a9f5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/help.data.gz": {
+      "checksum": "07575676825ac21e03a81110e0a0b1ea"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/help.js.metadata": {
+      "checksum": "0d6776e8af33b5c341739cfd73ae1f1d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/html.data.gz": {
+      "checksum": "71b6b1202a6dec656914d0d258b48c3e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/html.js.metadata": {
+      "checksum": "70df2ee502fe990362b1fba5174c96fd"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/tests.data.gz": {
+      "checksum": "c7f001b4ef53b5c7e67379dc0f0c659a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/stats4/tests.js.metadata": {
+      "checksum": "73be0b9593e90df45b9c9a2aaf482944"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tcltk.data.gz": {
+      "checksum": "332db24b1aeae594172e76c773e8f7c8"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tcltk.js.metadata": {
+      "checksum": "4938018ba3b0408125c981b463559687"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/help.data.gz": {
+      "checksum": "07008792bfd607da56dc1e999b1f2ef4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/help.js.metadata": {
+      "checksum": "662db5c182af2f5ec73a9ce034b630dd"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/html.data.gz": {
+      "checksum": "d48125a763a53c776c80ce9dc52fd07e"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/html.js.metadata": {
+      "checksum": "cb1fcd61384800f6946a8a4906147029"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/tests.data.gz": {
+      "checksum": "d777249e7345568df27e21c8725d495f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/tools/tests.js.metadata": {
+      "checksum": "e4af7723e1ac91fd4806cb79170f5b29"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/translations.data.gz": {
+      "checksum": "965786e65d3832ede577a60cd62db45f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/translations.js.metadata": {
+      "checksum": "6129faae22842c1e952292bc648c969c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION": {
+      "checksum": "8c74fc51c182b93b45d7c801202cb889"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/doc.data.gz": {
+      "checksum": "f5b7b9b59b10d25ab6c4e50e54c62c43"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/doc.js.metadata": {
+      "checksum": "f6447a41d69b94c4f927b3679a37f083"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/help.data.gz": {
+      "checksum": "e7fd6f7b1dcac046ecd5e4ddaa6a806b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/help.js.metadata": {
+      "checksum": "3f8de1d5bc5e73e5a473c299fd6bb0f1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/html.data.gz": {
+      "checksum": "3f98a63d008ffe03e0d86b12b302103d"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/html.js.metadata": {
+      "checksum": "64c759721282356f80bb4d9207345d83"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/misc.data.gz": {
+      "checksum": "ef83c5b22ee9c1ca2f7005fd8ecf3573"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/misc.js.metadata": {
+      "checksum": "231cffe9bf0512b4d9c176905a34b29a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/tests.data.gz": {
+      "checksum": "841f327e5a68871acee4808794558805"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/utils/tests.js.metadata": {
+      "checksum": "a7ad4b7ae6304dafa090f47ceca16654"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/webr/help.data.gz": {
+      "checksum": "e80faaaa1ff33aa0dc04c8d4382a8497"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/webr/help.js.metadata": {
+      "checksum": "4dce600d60577106591348a2bef788a3"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/webr/html.data.gz": {
+      "checksum": "2764ca8b9fd90daca2676fc3c5cce64c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/library/webr/html.js.metadata": {
+      "checksum": "c0caed8b8a6aba675811429c0377791b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/share.data.gz": {
+      "checksum": "dcf0d1622c26f86c04d467cf60850b74"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/share.js.metadata": {
+      "checksum": "880528e2b90aa47ff60af9b5eea3e3d7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/tests.data.gz": {
+      "checksum": "d99a8113a290a49f3c47096fb0baf095"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/lib/R/tests.js.metadata": {
+      "checksum": "24cd1ba3bb93e0aa2e56659ca4868c86"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSans-Bold.ttf": {
+      "checksum": "5959e861b45905afb3f5659b66e5a43b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSans-BoldItalic.ttf": {
+      "checksum": "258746b7854392bcfd5531c3110674a1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSans-Italic.ttf": {
+      "checksum": "b650143d06ff517e7482b6cbecb057b7"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSans-Regular.ttf": {
+      "checksum": "556ad26a9ff8afce0ea47896b298f4bf"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSansMono-Bold.ttf": {
+      "checksum": "e03f7c60925be06f6037ab22ceef6534"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSansMono-Regular.ttf": {
+      "checksum": "76bc9dee5de9d62cf1fff05a85b6d463"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Bold.ttf": {
+      "checksum": "ffdf273d3e86678a428bfe16de5793e5"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSerif-BoldItalic.ttf": {
+      "checksum": "0036797788d93b0f0cae86eec0040b1b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Italic.ttf": {
+      "checksum": "4c488bfae3b56f7f85ddd8af6829accc"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Regular.ttf": {
+      "checksum": "788141e28255aec7da6d1f5444ddad4c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/gdal.data.gz": {
+      "checksum": "27c43c9d7827dd67c6f388c8e830038c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/gdal.js.metadata": {
+      "checksum": "40b6850183b35a195464ad6080f62917"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/proj.data.gz": {
+      "checksum": "834c143058be217e670c48ce1e77e206"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/proj.js.metadata": {
+      "checksum": "2e9339010891c4cb0323d7e6f667ff6b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/udunits.data.gz": {
+      "checksum": "f8f64c29a93a151378929b6c882a7238"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/usr/share/udunits.js.metadata": {
+      "checksum": "6ee5406e67a645a811abd58df92bd11f"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le32d8.cache-7": {
+      "checksum": "51aeeb054a5fd6fe2fe2a8d7a932210b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/vfs/var/cache/fontconfig/CACHEDIR.TAG": {
+      "checksum": "edad2301cde055e29b0d30b8d2f4b724"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webr-serviceworker.js": {
+      "checksum": "6876da0f1da4919269b12939fbf31674"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webr-serviceworker.js.map": {
+      "checksum": "a55aef60b46af74b1411d95d8ad4d6d6"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webr-serviceworker.mjs": {
+      "checksum": "6353b631c6f6b280eca93a4f41bd4d80"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webr-serviceworker.mjs.map": {
+      "checksum": "8ecb29b11c5f163ab392598321386c28"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webr-worker.js": {
+      "checksum": "240bb8f5a8f471bcb001321a70f1b689"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webr-worker.js.map": {
+      "checksum": "bd2f258304702c1299c294db28d6ebb1"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webr.cjs": {
+      "checksum": "0e48a22131473014da8d8f908c5239cf"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webr.cjs.map": {
+      "checksum": "5f127717f06f47da540986cf752ce4dc"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webr.mjs": {
+      "checksum": "f300831240837ff242f2e8ddfd691a40"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webr.mjs.map": {
+      "checksum": "e27293bf312150fc231ca6c7fd649591"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/chan/channel-common.d.ts": {
+      "checksum": "fec049491a432f1ccbf3ce024bba3baa"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/chan/channel-postmessage.d.ts": {
+      "checksum": "c6a8f78fab628134b7180ff5e59a4f64"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/chan/channel-service.d.ts": {
+      "checksum": "6b35591f5de7e812bf9227d55a8b35e4"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/chan/channel-shared.d.ts": {
+      "checksum": "e56a605f994592473e1c84ec5f58800c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/chan/channel.d.ts": {
+      "checksum": "ae565b837db4ae87ba2152b9d961eb22"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/chan/message.d.ts": {
+      "checksum": "7705b5d065fc7c9ec24c5906bcb3e1e9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/chan/queue.d.ts": {
+      "checksum": "88820d2b2237896b22d15da0bb8246ea"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/chan/serviceworker.d.ts": {
+      "checksum": "6d929e5cd8ad392cfa10734d88c25d67"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/chan/task-common.d.ts": {
+      "checksum": "5bec41a29d2b750b509fcc4f8a1ed1e0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/chan/task-main.d.ts": {
+      "checksum": "f6f605da203f29469a5b4d38b2c0bcce"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/chan/task-worker.d.ts": {
+      "checksum": "cf6b12ffd3797cb9303bbd190351eb4b"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/compat.d.ts": {
+      "checksum": "33eda8bd4455ab1b10c7e580db558f45"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/config.d.ts": {
+      "checksum": "1b90f65c821aed4f4b94346b627b8f61"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/console.d.ts": {
+      "checksum": "591c23a125e11dcf3dd2e959cfdc06b9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/emscripten.d.ts": {
+      "checksum": "53e2792c2840ac195fcddc418a1e92cf"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/error.d.ts": {
+      "checksum": "f6ab6e58de6eb63a7d7b16aaa48be714"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/mount.d.ts": {
+      "checksum": "38d8db9f3e2f2af9e5826efbfa1e7762"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/payload.d.ts": {
+      "checksum": "eb9cd4d5c9df6f2a1a9b20e70e06aa35"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/proxy.d.ts": {
+      "checksum": "60050c04a4a7bef595d0b8fe6477ca36"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/robj-main.d.ts": {
+      "checksum": "d01b9ab014e5b5d44f1b52bf6ab177e0"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/robj-worker.d.ts": {
+      "checksum": "6df4a4fa57fa272f661e797033c6f458"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/robj.d.ts": {
+      "checksum": "36b1c032d91beb66132e8e21fc21865c"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/utils-r.d.ts": {
+      "checksum": "8dd57576c21644349c45e562ce9f1f4a"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/utils.d.ts": {
+      "checksum": "261bb1e9718c734a460306deb79329b9"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/webr-chan.d.ts": {
+      "checksum": "683480399ea03890693829db6ee60495"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/webr-main.d.ts": {
+      "checksum": "625d6530fe95580137a5814132436ec2"
+    },
+    "shinylive_assets/shinylive-0.9.1/shinylive/webr/webR/webr-worker.d.ts": {
+      "checksum": "e2ebd7ddedcadeeadbf819c35985c768"
+    },
+    "shinylive-sw.js": {
+      "checksum": "91385ac0faf01c29c38fab73bba9d083"
+    }
+  },
+  "users": null
+}
